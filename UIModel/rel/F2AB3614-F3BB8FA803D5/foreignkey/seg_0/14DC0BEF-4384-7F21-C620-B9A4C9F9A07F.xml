@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14DC0BEF-4384-7F21-C620-B9A4C9F9A07F" containerWithKeyObject="782BD939-0EC5-F55C-3398-C9AC072B4688" localFKIndex="3F76750A-4FD1-82E2-CBDE-047FB7B313A0" name="Aktivnost_Prostori_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:26:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Prostori</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E8E4530-DF25-89A9-BE83-C39B915DB3E0</referredTableID>
+<keyObject>B9D19352-3007-7EA1-014E-CD3E4BA8A05F</keyObject>
+<referredKeyID>B9D19352-3007-7EA1-014E-CD3E4BA8A05F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ProstorId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

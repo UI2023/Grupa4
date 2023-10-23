@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DABA94F1-ED14-6C21-ADD3-47F83391BBDA" name="MedicinskaOprema">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:34:04 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OpremaID" id="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:34:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivOpreme" id="E53F3D56-291B-1210-9E34-E85855EA5F29">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:35:36 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proizvodjac" id="9B45522B-B245-F892-6B96-6A5446120236">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:36:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumNabavke" id="135090AB-7F37-419A-CD91-4D7A4A802087">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:36:47 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PoslednjiServis" id="BA4CC020-D33D-24E7-BF49-CDE5385361FF">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:37:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="7E4CCE99-2B64-D521-A3EF-A148F5E9D912">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:38:32 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2392242F-8815-DECA-0655-1F75BA138110" name="MedicinskaOprema_PK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:34:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

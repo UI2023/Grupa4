@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="833C74BE-4409-1036-6279-B2E9A7C878F2" name="PacijentovePolise">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:11:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PacijentOsiguranjeID" id="A450E8C7-E49A-529D-3D84-83D2AFF1BFFE">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:15:39 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPocetka" id="1F228D52-711F-6C12-E8EF-5F93E0F82BEB">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:15:39 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIsteka" id="E93EAD75-D6D7-259A-E3C1-3C085BE37AF7">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:15:39 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ZdrastvenoOsiguranje_OsiguranjeID" id="21EC82DC-3B8A-ABEA-36D4-CCFB9BFCD87F">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:19:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0F2B751-D1F7-BF7F-5B83-D560D5963E27" referredColumn="CE21EE7B-F0F8-7D24-04B8-04FFB3B27C1C"/>
+</associations>
+</Column>
+<Column name="Pacijenti_PacijentID" id="EA9BF2A9-E7F7-0433-10D4-C56CEACA960A">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:20:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BF025637-155A-132D-3E33-E4D0515A25DA" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4490AE36-0168-C92F-0BB7-F7D96C4E562F" name="PacijentovePolise_PK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:15:39 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A450E8C7-E49A-529D-3D84-83D2AFF1BFFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35D341B9-56AF-4108-330D-2B5D4F1671E6" name="PacijentovePolise_ZdrastvenoOsiguranje_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:19:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21EC82DC-3B8A-ABEA-36D4-CCFB9BFCD87F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="089C9BFA-55A7-3726-4CC0-AFA84945D0F4" name="PacijentovePolise_Pacijenti_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:20:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA9BF2A9-E7F7-0433-10D4-C56CEACA960A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC2ED0DA-1002-C98F-A57B-7DD62FB776E5" name="Izvestaji">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:57:50 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IzvestajId" id="8A5B3782-130A-4BF1-5988-F5F74F496858">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:59:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sadrzaj" id="13E717EB-CDEC-2228-0E17-87A11301FF9A">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:59:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2000</dataTypeSize>
+<ownDataTypeParameters>2000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIzrade" id="06784D8D-621C-F387-FF10-A67362015A63">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:59:54 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VremeIzrade" id="4DDE6558-41AE-E39F-2333-0CE39E5E1D9F">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:00:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Terapije_TerapijaID" id="5881524E-EDE0-C970-12EB-143F780ADD90">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:22:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4B1375-6861-A661-1EE6-6D8997F4A1E7" referredColumn="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
+</associations>
+</Column>
+<Column name="Pregled_PregledID" id="8385BF63-25B3-45DE-8F33-241BAD99309B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52CD647D-F1CE-34A0-57E3-BB5A18335315" referredColumn="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="614E05EE-72AC-F965-E2E4-84825276738D" name="Izvestaji_PK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:59:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC803808-42BA-B9C5-E7D6-5D4840E187C2" name="Izvestaji_Terapije_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:22:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5881524E-EDE0-C970-12EB-143F780ADD90"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="20A6250A-94B0-026E-3C74-935E35019F09" name="Izvestaji_Pregled_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8385BF63-25B3-45DE-8F33-241BAD99309B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

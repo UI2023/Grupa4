@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8889DB57-9EC5-16EA-9AB1-C19462FD7D0F" name="NeZakazanPregled">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:23:29 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="NZPID" id="81F4A266-099B-6F28-EA39-96349C744FAA">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:26:30 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregled_PregledID" id="937E5D2D-D357-091A-0724-4353E765AE55">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:27:59 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90AE2CDF-A2EB-F4EA-919B-D1BC20A2BB8D" referredColumn="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96EECA0E-B53D-887A-866E-DE014B3E7E6A" name="NeZakazanPregled_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:26:56 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F4A266-099B-6F28-EA39-96349C744FAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71C20753-1107-13AB-3BBF-57CB5B4280D4" name="NeZakazanPregled_Pregled_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:27:59 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="937E5D2D-D357-091A-0724-4353E765AE55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

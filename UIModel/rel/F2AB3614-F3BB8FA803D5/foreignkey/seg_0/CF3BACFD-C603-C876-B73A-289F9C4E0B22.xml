@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CF3BACFD-C603-C876-B73A-289F9C4E0B22" containerWithKeyObject="5FC199B7-4018-6E97-C421-B4A293E29E2D" localFKIndex="E564336B-46EC-8AB8-BE6C-F030BE836C14" name="PregledKodSpecijaliste_Pregled_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:28:04 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Pregled</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20DDD1F7-E95B-DB54-0606-3D40DBC83197</referredTableID>
+<keyObject>E4FED36E-F127-FFE6-6D9D-B273F54B2830</keyObject>
+<referredKeyID>E4FED36E-F127-FFE6-6D9D-B273F54B2830</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PregledID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

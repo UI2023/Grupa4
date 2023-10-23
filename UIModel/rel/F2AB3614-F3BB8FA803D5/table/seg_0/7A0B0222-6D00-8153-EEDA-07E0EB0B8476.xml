@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7A0B0222-6D00-8153-EEDA-07E0EB0B8476" name="ZakazaniPregledi">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:16:25 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PregledID" id="811E1061-4C47-872D-7E14-8890427558F5">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:17:04 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="58440A79-B2B2-14BE-2E33-E2721001CBDF">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:17:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Vreme" id="55BE7C7D-6BC1-5240-6026-33CE677DCEFD">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:17:24 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izvrsen" id="D6F99BA6-4329-8025-8908-D2D206903CAF">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:53:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pregled_PregledID" id="F4211F65-52D6-37DE-4814-1A25778193A7">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:27:54 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C43520B-D003-1417-37DD-FE445C8A4478" referredColumn="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83F3E9EB-9877-92E1-841D-3C7ABA457E46" name="ZakazaniPregledi_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:17:04 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="811E1061-4C47-872D-7E14-8890427558F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B8F1335-3C2C-2A0B-0F9F-209CBAFE4F5A" name="ZakazaniPregledi_Pregled_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:27:54 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4211F65-52D6-37DE-4814-1A25778193A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

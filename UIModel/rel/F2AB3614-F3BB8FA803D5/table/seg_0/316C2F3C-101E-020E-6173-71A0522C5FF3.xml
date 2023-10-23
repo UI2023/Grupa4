@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="316C2F3C-101E-020E-6173-71A0522C5FF3" name="TipOsiguranja">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 15:52:30 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_18</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipID" id="0981A27A-9801-0B58-576E-E2BD5CF95C4E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 15:53:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="545CFF19-8C37-A058-1FD3-DA5E850D2E31">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 15:53:31 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B23F27C2-6513-4270-98AF-5736CF56457F" name="TipOsiguranja_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 15:53:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0981A27A-9801-0B58-576E-E2BD5CF95C4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

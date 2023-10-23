@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63B87698-8274-15E7-BFB2-F26EF86432A1" name="DoktorOprema">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:41:40 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DoktorOpremaID" id="08658DA2-6643-E8A6-DC3C-8A29F591DF0A">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:42:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPocetkaKoristenja" id="97FC552B-8F13-302A-A2DD-97C5B5EE52FE">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:42:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumZavrsetkaKoristenja" id="CFF408D2-AC85-659E-5197-BFC43950DB8D">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:42:48 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Doktori_DoktorID" id="9BBB74D1-6D70-7E2F-4B02-DFFAC7130C97">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:43:45 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="699F2B7B-2534-5D35-FA43-4A40CDD96823" referredColumn="DAF35C81-A41A-65EA-13A7-12E7ACFA3839"/>
+</associations>
+</Column>
+<Column name="MedicinskaOprema_OpremaID" id="599AE83A-1719-F6C1-C5FF-E8F7905F7449">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:44:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A1D70D51-081E-C5C3-F6C4-A53CD7D17525" referredColumn="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A75C0FE3-7216-8FA8-A30D-9EAD545BD77A" name="DoktorOprema_PK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:42:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08658DA2-6643-E8A6-DC3C-8A29F591DF0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A744F91-01BE-50D5-72AD-75F2EFEAB4F4" name="DoktorOprema_Doktori_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:43:45 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9BBB74D1-6D70-7E2F-4B02-DFFAC7130C97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA64E5A8-4479-BB0F-A13C-078F4AEAD110" name="DoktorOprema_MedicinskaOprema_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 17:44:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="599AE83A-1719-F6C1-C5FF-E8F7905F7449"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

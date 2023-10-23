@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A0F2B751-D1F7-BF7F-5B83-D560D5963E27" containerWithKeyObject="833C74BE-4409-1036-6279-B2E9A7C878F2" localFKIndex="35D341B9-56AF-4108-330D-2B5D4F1671E6" name="PacijentovePolise_ZdrastvenoOsiguranje_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:19:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>ZdrastvenoOsiguranje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A87C476-4E4E-21A4-EC43-4E458B2EC348</referredTableID>
+<keyObject>0C0DBECD-FB5B-347A-D783-66FF4F07B7C7</keyObject>
+<referredKeyID>0C0DBECD-FB5B-347A-D783-66FF4F07B7C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OsiguranjeID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

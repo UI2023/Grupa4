@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20DDD1F7-E95B-DB54-0606-3D40DBC83197" name="Pregled">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:19:06 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PregledID" id="08F34175-E8C6-0FA4-BB23-3CA001813A38">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:19:24 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odeljenja_OdeljenjeID" id="CFF100DC-26BB-5572-924A-BD51DC9A3D11">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A918F2B-FE1E-8BAD-B500-AAB9FBAA994D" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
+</associations>
+</Column>
+<Column name="Doktori_DoktorID" id="75A3C9B3-866A-F32A-16BC-15753C635C05">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B35A067D-D187-0B7F-0DB1-098FEAAF2CE9" referredColumn="DAF35C81-A41A-65EA-13A7-12E7ACFA3839"/>
+</associations>
+</Column>
+<Column name="Pacijenti_PacijentID" id="6909FFCD-0B74-2179-E6B1-C662E2C3246C">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C02C5FB6-86D7-2471-0033-44EFBAB84DC2" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E4FED36E-F127-FFE6-6D9D-B273F54B2830" name="Pregled_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:19:24 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="512C0794-AF13-7DAD-53AE-6A4FB3F06470" name="Pregled_Odeljenja_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFF100DC-26BB-5572-924A-BD51DC9A3D11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F14CBE8B-A21E-9157-EBD2-866F093862AD" name="Pregled_Doktori_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75A3C9B3-866A-F32A-16BC-15753C635C05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8512BD5-4198-D090-6A70-8091CBCA5ADE" name="Pregled_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:21:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6909FFCD-0B74-2179-E6B1-C662E2C3246C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

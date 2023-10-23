@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2671B7E-ADE1-67B0-967B-436EEE69C3EA" name="Odeljenja">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:11:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OdeljenjeID" id="7356329E-03B8-5F6F-8596-FC9229CF5A6F">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:12:34 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="ABBE9550-AC72-6C1F-E02E-691B9A2D2A6E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:12:56 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="D7B262C8-A750-3644-1043-0A0ED00A134D">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:13:29 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Institucija_InstitucijaID" id="FE51D7A4-A70D-3463-E4B2-DE421B1A1B3D">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:34:30 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A0732DE-B3BE-E672-D482-DB9F0D054819" referredColumn="E05A4B52-979D-0E73-2383-15FEBD60F0B1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9749B63E-8196-95F1-35E8-EE5FE0AEA4B2" name="Odeljenja_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:12:34 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D358DF0-F73E-9F50-AEAD-4AAB709A64FB" name="Odeljenja_Institucija_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:34:30 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE51D7A4-A70D-3463-E4B2-DE421B1A1B3D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

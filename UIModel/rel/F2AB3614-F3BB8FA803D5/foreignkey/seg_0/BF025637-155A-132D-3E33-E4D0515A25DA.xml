@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BF025637-155A-132D-3E33-E4D0515A25DA" containerWithKeyObject="833C74BE-4409-1036-6279-B2E9A7C878F2" localFKIndex="089C9BFA-55A7-3726-4CC0-AFA84945D0F4" name="PacijentovePolise_Pacijenti_FK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 15:20:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Pacijenti</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3218605-0CB7-ADD7-1F76-FFD81DCA588D</referredTableID>
+<keyObject>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</keyObject>
+<referredKeyID>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PacijentID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

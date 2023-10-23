@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBEF0A59-3F5A-3876-62AE-BAEA7AB6F8E2" name="SmesnkiRaspored">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:39:19 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SmenaID" id="69A799A7-57C1-2880-9F09-3AF2EC468835">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:40:48 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="D087B6FE-6A59-8733-4837-5C9AC4A5F2FF">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:41:33 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Napomena" id="E2610C51-1A69-D978-741B-ECBA64D45FA6">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:42:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="985F66B5-CEAE-6F43-1614-2C3D8D93A416">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:11:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D54FE7C-4FEE-D54B-BD41-78080EADCCE1" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+<Column name="Odeljenja_OdeljenjeID" id="475999C2-7D95-7C1E-9DD8-BE02D730341E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:11:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ACA3439-94EB-5059-CDB7-4B904D5520DD" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5DAAAFFC-5F36-4AD3-8D2B-8315641ECFF7" name="SmesnkiRaspored_PK">
+<createdBy>Ognjen</createdBy>
+<createdTime>2023-10-16 16:40:48 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="69A799A7-57C1-2880-9F09-3AF2EC468835"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7B416B6-EC6B-73CD-F1CA-881FA21D0418" name="SmesnkiRaspored_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:11:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="985F66B5-CEAE-6F43-1614-2C3D8D93A416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DC88186-D3E1-E06C-6C52-46AE29D1A5A9" name="SmesnkiRaspored_Odeljenja_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:11:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="475999C2-7D95-7C1E-9DD8-BE02D730341E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

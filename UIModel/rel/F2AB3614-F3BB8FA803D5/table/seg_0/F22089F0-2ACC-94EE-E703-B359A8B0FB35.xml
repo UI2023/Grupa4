@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F22089F0-2ACC-94EE-E703-B359A8B0FB35" name="MedicinskeSestre">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:09:30 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MedSestraID" id="F7BFB91C-08E7-2903-BC77-7AE568A43BBE">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:10:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="B9AC7D8E-5EC3-0D98-A883-64BA6C083D0A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:10:40 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prezime" id="AEDBB6B5-9E81-62DC-32AD-9CDA47ED3953">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:10:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="BD23E826-AEDF-EC32-EA57-9639E8D903CE">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:15:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EB5FF57A-D037-D0BA-86FA-4CEF9F5D104D" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C8C2B1C-4755-EA0B-1575-A6379DFDC1B9" name="MedicinskeSestre_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 17:10:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7BFB91C-08E7-2903-BC77-7AE568A43BBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5C1B2AF-5E72-556A-CE79-D688E72E36FB" name="MedicinskeSestre_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-23 16:15:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD23E826-AEDF-EC32-EA57-9639E8D903CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

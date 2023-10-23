@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="UIModel" id="17332B0A-4517-F12D-0113-32C40279BF4E" version="3.5">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-09 16:34:13 UTC</createdTime>
+<ownerDesignName>Upravljanje informacijama</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>17332B0A-4517-F12D-0113-32C40279BF4E</designId>
+</OSDM_Design>
