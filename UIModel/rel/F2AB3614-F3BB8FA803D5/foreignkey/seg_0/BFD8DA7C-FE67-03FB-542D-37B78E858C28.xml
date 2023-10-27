@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BFD8DA7C-FE67-03FB-542D-37B78E858C28" containerWithKeyObject="A2671B7E-ADE1-67B0-967B-436EEE69C3EA" localFKIndex="C8B307AC-B754-512A-07B7-7DA708FF8737" name="Odeljenja_DeoZgrade_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:34:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>DeoZgrade</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>662AE07D-A737-A5F0-029E-D1145D086182</referredTableID>
+<keyObject>0AD979C9-8D18-74A3-6FA9-2C26635041DD</keyObject>
+<referredKeyID>0AD979C9-8D18-74A3-6FA9-2C26635041DD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DeoZgradeID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

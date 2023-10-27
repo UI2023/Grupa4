@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6DA1799-578C-E864-0024-8675909B15B8" name="OdeljenjeOprema">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:59:34 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_29</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OdeljenjeOpremaID" id="CFB7C397-BD05-1B95-FA0F-8AA0D6F70A0E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:06 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MedicinskaOprema_OpremaID" id="6C8B0506-E2E9-E70D-FE1B-26F1DCE558C8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E2161EA5-7FE9-C86F-F668-EEB98B0C6A42" referredColumn="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</associations>
+</Column>
+<Column name="Odeljenja_OdeljenjeID" id="C0EC4BA0-E647-8E45-B4E9-FBA95F101435">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:15 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D601235-46A1-BF9D-4FE2-6BBCB0E76050" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="444C3860-8CCF-47CA-95CF-010218B9C4FD" name="OdeljenjeOprema_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:06 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB7C397-BD05-1B95-FA0F-8AA0D6F70A0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6476BDF-0C6C-85FF-6FE6-5706AC211AE8" name="OdeljenjeOprema_MedicinskaOprema_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C8B0506-E2E9-E70D-FE1B-26F1DCE558C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2442454C-C1E7-74E0-F0F1-150C316F8C20" name="OdeljenjeOprema_Odeljenja_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 10:00:15 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0EC4BA0-E647-8E45-B4E9-FBA95F101435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F00ED776-8F70-3644-BF18-DD1047455163" containerWithKeyObject="DABA94F1-ED14-6C21-ADD3-47F83391BBDA" localFKIndex="D16B4142-BF41-6E68-E0E0-8359A2BF5ECE" name="MedicinskaOprema_TipOpreme_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:59:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>TipOpreme</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A83777E-4965-7736-8218-FD8285F0600C</referredTableID>
+<keyObject>B89EDE5A-E4C6-9095-093C-476510992E02</keyObject>
+<referredKeyID>B89EDE5A-E4C6-9095-093C-476510992E02</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TipID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

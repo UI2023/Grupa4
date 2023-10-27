@@ -74,6 +74,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TipOpreme_TipID" id="F12FE18D-5242-7875-D410-99010AD13866">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:59:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F00ED776-8F70-3644-BF18-DD1047455163" referredColumn="BF52D9A7-8B79-8D4F-A50D-9F661F0357B6"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="2392242F-8815-DECA-0655-1F75BA138110" name="MedicinskaOprema_PK">
@@ -85,6 +99,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D16B4142-BF41-6E68-E0E0-8359A2BF5ECE" name="MedicinskaOprema_TipOpreme_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:59:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F12FE18D-5242-7875-D410-99010AD13866"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -66,6 +66,20 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="TipZaposlenog_TipID" id="D1288495-414A-9CA3-E217-1A204F255722">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:33:46 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89C07825-9F54-2FB4-5ED6-EC6741DECCF6" referredColumn="070B379B-565B-0228-49BE-AA84B4D79D3B"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="15138586-39C5-79C8-EBDD-F9512BBCE25A" name="Zaposleni_PK">
@@ -77,6 +91,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="967AFC22-B656-020C-EF88-ED24C666B3BF" name="Zaposleni_TipZaposlenog_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:33:46 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1288495-414A-9CA3-E217-1A204F255722"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

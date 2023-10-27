@@ -59,6 +59,34 @@
 <colAssociation fkAssociation="C02C5FB6-86D7-2471-0033-44EFBAB84DC2" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
 </associations>
 </Column>
+<Column name="Izvestaji_IzvestajId" id="F6FC9EA2-31AB-B7D2-ECD7-8F10A19FF6E4">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:38:50 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87C0E02B-9760-E3BF-924D-9EE6BC26C439" referredColumn="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
+</associations>
+</Column>
+<Column name="TipPregleda_TipID" id="D3C72071-FF65-C709-8066-7C23B08CBAA3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:39:59 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E94403C-C7FC-4F70-B177-187E26AD7667" referredColumn="05CB217B-4EED-9CAB-E175-29A63FDCF6ED"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E4FED36E-F127-FFE6-6D9D-B273F54B2830" name="Pregled_PK">
@@ -100,6 +128,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="6909FFCD-0B74-2179-E6B1-C662E2C3246C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04829AFB-D00D-82E0-958A-E40E81D320AC" name="Pregled_Izvestaji_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:38:50 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6FC9EA2-31AB-B7D2-ECD7-8F10A19FF6E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBED2B55-D58F-4A92-228E-DAA7651AA78B" name="Pregled_TipPregleda_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-27 09:39:59 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3C72071-FF65-C709-8066-7C23B08CBAA3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
