@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" name="PlateINaknade">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_35</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PlataID" id="0FC6B899-9D16-808E-11B2-BC19BC6A67B3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IznosPlate" id="7A46381C-8190-A46D-95DC-8C03060CB5F4">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:33:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bonusi" id="DBF21CB8-25A3-DEA1-F455-E4E143609CEC">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:35:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odbici" id="0D58EC45-92A3-8C42-5A93-A2ED5FDE87C3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:35:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mesec" id="9EB2EFDB-8673-DA5B-3857-2EC15823C7EF">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:35:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina" id="64F6F951-DE85-EF81-8F96-C51D532DBF3F">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:35:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="E9DA5B18-90CB-F360-1F1A-E290BEFD40C3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:36:01 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40B6C59A-3C1B-BF5C-6694-F698045D210C" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D14ACDC-231C-54A2-12A5-7D4A22CD4214" name="PlateINaknade_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FC6B899-9D16-808E-11B2-BC19BC6A67B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="777F9C5E-3B47-FD31-80E3-8163C530767F" name="PlateINaknade_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:36:01 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9DA5B18-90CB-F360-1F1A-E290BEFD40C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

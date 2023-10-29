@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1938CDD-5B3B-CAD8-E586-24A0EBE74117" name="OdsustvaIGodisnjiOdmori">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:22:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OdsustvoID" id="81F0F3B9-20E6-6B47-CAD6-08A30543253A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:23:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumPocetka" id="911CAB0D-F3CF-63EB-99A7-CA6A8D1C3611">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:23:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumZavrsetka" id="7431B714-AC1E-EA15-2607-B08610281520">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:23:56 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="ECF5369D-5DF6-DC0A-63C6-005889A5219C">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:24:23 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B53C8A9D-AF2B-2559-5A47-E067982B997F" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+<Column name="TipOdsustva_TipID" id="38FAEB3C-F4C1-19E2-B81C-54DD9FAAEA1A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE6B137B-837B-CFB3-934E-EF03E1D1BA0F" referredColumn="B84C826C-4575-9E02-65ED-74B9C6A48E96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7679E2A-C3F8-C3A6-8262-2E4FACF1671C" name="OdsustvaIGodisnjiOdmori_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:23:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81F0F3B9-20E6-6B47-CAD6-08A30543253A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CF558B9-51EE-09FE-9050-15CFFF4B229D" name="OdsustvaIGodisnjiOdmori_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:24:23 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECF5369D-5DF6-DC0A-63C6-005889A5219C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A47B6E7-FA08-0E6E-D0BE-0B5876BC0CE1" name="OdsustvaIGodisnjiOdmori_TipOdsustva_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38FAEB3C-F4C1-19E2-B81C-54DD9FAAEA1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

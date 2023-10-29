@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CEB552A4-2E1B-1C2E-C78D-1F099E6B53F6" name="OperativnaSala">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:52:33 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SalaID" id="356A8A3B-81A5-5F72-7475-0867A2C7E5C3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:52:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="F977B8DA-796C-7895-4B38-9EEE2C8627E5">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:53:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odeljenja_OdeljenjeID" id="75367D54-F657-B572-4A4E-757A74F8B4E8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:58:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A463A2FC-9536-196B-A594-C57AA6B14DEB" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D052D44-5180-58C2-1A27-93C67B58E71F" name="OperativnaSala_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:52:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
+<colUsage columnID="F977B8DA-796C-7895-4B38-9EEE2C8627E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA6493BE-6452-CA44-E73E-143B859D4E28" name="OperativnaSala_Odeljenja_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 16:58:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75367D54-F657-B572-4A4E-757A74F8B4E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

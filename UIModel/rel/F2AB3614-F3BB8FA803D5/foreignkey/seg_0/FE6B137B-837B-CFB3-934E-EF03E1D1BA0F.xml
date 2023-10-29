@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE6B137B-837B-CFB3-934E-EF03E1D1BA0F" containerWithKeyObject="E1938CDD-5B3B-CAD8-E586-24A0EBE74117" localFKIndex="3A47B6E7-FA08-0E6E-D0BE-0B5876BC0CE1" name="OdsustvaIGodisnjiOdmori_TipOdsustva_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>TipOdsustva</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8FFDFCEC-8D46-4029-2836-35A8C651697F</referredTableID>
+<keyObject>86D1C845-D14B-2E4C-EB9E-D8E4F0B4D00A</keyObject>
+<referredKeyID>86D1C845-D14B-2E4C-EB9E-D8E4F0B4D00A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TipID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

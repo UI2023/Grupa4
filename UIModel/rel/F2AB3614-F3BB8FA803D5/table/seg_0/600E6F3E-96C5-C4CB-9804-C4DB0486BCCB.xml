@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="600E6F3E-96C5-C4CB-9804-C4DB0486BCCB" name="OpremaUSali">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:09:52 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="OpremaUSaliID" id="181AB691-B5CA-EE0E-8370-74ED2C395C91">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:15 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MedicinskaOprema_OpremaID" id="A7B0DFC8-DFDF-0DF6-BEDA-388C67D8954F">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="356CA7EF-CC76-60C6-F252-77852E93FE9F" referredColumn="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</associations>
+</Column>
+<Column name="OperativnaSala_SalaID" id="287B83E9-778F-6461-7F9C-CECDFCAC1C45">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D66B4A92-ED0D-4F6F-D634-5BA4453DEC90" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
+</associations>
+</Column>
+<Column name="OperativnaSala_Naziv" id="4A627D37-8316-BEBB-AA5E-48E14E2A0AE6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D66B4A92-ED0D-4F6F-D634-5BA4453DEC90" referredColumn="F977B8DA-796C-7895-4B38-9EEE2C8627E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B2C7F95-D3FF-76B5-DCE7-001023D23E20" name="OpremaUSali_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:15 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="181AB691-B5CA-EE0E-8370-74ED2C395C91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="10DF2F8D-1060-0F5F-F968-3E8BE5F823B5" name="OpremaUSali_MedicinskaOprema_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7B0DFC8-DFDF-0DF6-BEDA-388C67D8954F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E26DD62C-F888-6DD0-DDDF-41ACA59F551A" name="OpremaUSali_OperativnaSala_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:10:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="287B83E9-778F-6461-7F9C-CECDFCAC1C45"/>
+<colUsage columnID="4A627D37-8316-BEBB-AA5E-48E14E2A0AE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

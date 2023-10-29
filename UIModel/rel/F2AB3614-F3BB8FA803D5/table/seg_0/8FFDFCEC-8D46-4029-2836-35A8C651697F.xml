@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8FFDFCEC-8D46-4029-2836-35A8C651697F" name="TipOdsustva">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:25:15 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TipID" id="B84C826C-4575-9E02-65ED-74B9C6A48E96">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivTipa" id="FC5ABD19-6DD4-81AB-9657-5600EE102048">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86D1C845-D14B-2E4C-EB9E-D8E4F0B4D00A" name="TipOdsustva_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:26:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B84C826C-4575-9E02-65ED-74B9C6A48E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

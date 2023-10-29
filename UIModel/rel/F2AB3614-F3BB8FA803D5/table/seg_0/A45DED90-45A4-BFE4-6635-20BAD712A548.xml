@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A45DED90-45A4-BFE4-6635-20BAD712A548" name="ZaposleniObuka">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:31:50 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ZaposleniObukaID" id="4C9EF1B0-6A3A-5F37-3E7E-18414EDD7E9E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="2C5ACD76-2864-3A10-518B-AA7FAAB862A8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="561D77D2-739E-5E58-1B35-98630564DE05" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+<Column name="Obuka_ObukaID" id="78347967-A16B-3004-D36F-28FB1E408E3B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7565EC29-A71B-5F5B-1C8A-F98FBB84843C" referredColumn="C35DE0BF-2BC7-D2E7-43B9-D09771456703"/>
+</associations>
+</Column>
+<Column name="DatumPocetka" id="19C14EB8-F882-2810-CFF1-13A325D44331">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:37:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumZavrsetka" id="BB9642F0-5607-D378-6D60-2F709275885B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:37:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD022F0B-83F3-532E-64DF-DB79C7540D32" name="ZaposleniObuka_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C9EF1B0-6A3A-5F37-3E7E-18414EDD7E9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB7EABE7-94AA-1938-89D4-CA3022E769B8" name="ZaposleniObuka_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C5ACD76-2864-3A10-518B-AA7FAAB862A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FF00641-5D95-5223-1A66-9D4579D2D478" name="ZaposleniObuka_Obuka_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-10-29 17:32:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78347967-A16B-3004-D36F-28FB1E408E3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
