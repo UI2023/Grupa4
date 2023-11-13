@@ -46,6 +46,20 @@
 <colAssociation fkAssociation="0436DEDA-FE84-D72E-D78D-7C82E3753B5D" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
 </associations>
 </Column>
+<Column name="UlogaUTimu_UlogaID" id="A8C89278-2DF7-0E9C-861F-EDA0E2DFA11B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:48:54 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="687E5108-869A-0933-87E8-B578D98D0FDD" referredColumn="7EC1A074-9674-3242-3DB4-0C5E5DBE1BC9"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="D7DFBEB6-C886-DAF6-7BD7-84C990AEF049" name="TimZaOperaciju_PK">
@@ -77,6 +91,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="82CB26A1-D4F2-CBCB-8334-7AC590CD99B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7CD7DC2-4CFF-509E-AEAE-6772014CD908" name="TimZaOperaciju_UlogaUTimu_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:48:54 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8C89278-2DF7-0E9C-861F-EDA0E2DFA11B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

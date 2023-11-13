@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" name="RasporedOperacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F4C9EDC-4F5D-8D59-252A-5A0E13199A1D" name="MedicinskiUredjaji">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:53:27 UTC</createdTime>
+<createdTime>2023-11-13 21:00:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_28</ordsAlias>
+<ordsAlias>table_44</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="RasporedID" id="53402BAA-044E-85C0-CF59-8AA6077FC609">
+<Column name="UredjajID" id="C2370F9B-2CA3-9EB9-C015-5972828188A0">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 21:01:01 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumVremeOperacije" id="90FA69BD-11B5-F5C2-8218-F4CA358023AF">
+<Column name="NazivUredjaja" id="B28AC9F9-BA35-D7B3-D96A-620B7763DB78">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:24 UTC</createdTime>
+<createdTime>2023-11-13 21:01:17 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OperativnaSala_SalaID" id="2689F086-E8FE-80AA-FC1E-EE5CDAA97283">
+<Column name="Odeljenja_OdeljenjeID" id="5A3D3752-CC39-548E-9886-A427C9841DE2">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 21:03:03 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +41,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9DECFABB-2858-8148-38C9-0110918E4458" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
+<colAssociation fkAssociation="18BC0FFF-D977-48B2-3B88-9009BCC6C2A0" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
 </associations>
 </Column>
-<Column name="StacionarnoLecenje_ID" id="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6">
+<Column name="OperativnaSala_SalaID" id="8F350048-5648-C7A0-3BF7-1451B89539AD">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 21:03:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,40 +55,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="136A18B7-3A43-F5F9-D713-21E9599DF756" referredColumn="70FDBCE7-5B5C-6C66-F2F9-2F88162E8C71"/>
+<colAssociation fkAssociation="EAE44E9A-1010-603C-6EB2-B52436CFB311" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F5908615-CC6B-9040-992A-FBD96DBEF10F" name="RasporedOperacija_PK">
+<ind_PK_UK id="E90B932A-4627-AE5A-C725-592C62CA2DA8" name="MedicinskiUredjaji_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 21:01:01 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="53402BAA-044E-85C0-CF59-8AA6077FC609"/>
+<colUsage columnID="C2370F9B-2CA3-9EB9-C015-5972828188A0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EA7FAC41-5659-22FF-E9B1-BB240B3FFC90" name="RasporedOperacija_OperativnaSala_FK">
+<ind_PK_UK id="C4A9B1D1-8A67-86C5-FD4C-F5F94B3C44D3" name="MedicinskiUredjaji_Odeljenja_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 21:03:03 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2689F086-E8FE-80AA-FC1E-EE5CDAA97283"/>
+<colUsage columnID="5A3D3752-CC39-548E-9886-A427C9841DE2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ECFD4BB5-0620-79CE-3A3F-DE01EFB1A0A7" name="RasporedOperacija_StacionarnoLecenje_FK">
+<ind_PK_UK id="4DCD05B7-9441-16B3-A8C3-591C2FD85B69" name="MedicinskiUredjaji_OperativnaSala_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 21:03:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6"/>
+<colUsage columnID="8F350048-5648-C7A0-3BF7-1451B89539AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

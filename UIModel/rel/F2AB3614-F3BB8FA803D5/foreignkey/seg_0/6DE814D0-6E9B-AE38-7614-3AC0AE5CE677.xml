@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6DE814D0-6E9B-AE38-7614-3AC0AE5CE677" containerWithKeyObject="AD7F1360-C9F2-4477-EE3E-8098661C7541" localFKIndex="22944A06-B830-722D-1C06-4C0011103CBC" name="PrekovremeniRad_SmesnkiRaspored_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:45:31 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>SmesnkiRaspored</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBEF0A59-3F5A-3876-62AE-BAEA7AB6F8E2</referredTableID>
+<keyObject>5DAAAFFC-5F36-4AD3-8D2B-8315641ECFF7</keyObject>
+<referredKeyID>5DAAAFFC-5F36-4AD3-8D2B-8315641ECFF7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SmenaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

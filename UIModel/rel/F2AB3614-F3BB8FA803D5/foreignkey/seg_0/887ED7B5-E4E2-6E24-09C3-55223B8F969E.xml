@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="887ED7B5-E4E2-6E24-09C3-55223B8F969E" containerWithKeyObject="C72EEAD2-B409-6514-8800-7395E4125884" localFKIndex="AC44D3CB-995A-441A-C47D-7B55B7DA8DB9" name="IzdatiLekovi_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:31:09 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Pacijenti</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3218605-0CB7-ADD7-1F76-FFD81DCA588D</referredTableID>
+<keyObject>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</keyObject>
+<referredKeyID>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PacijentID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

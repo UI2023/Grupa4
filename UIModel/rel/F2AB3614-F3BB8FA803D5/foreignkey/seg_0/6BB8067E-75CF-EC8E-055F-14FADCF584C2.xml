@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6BB8067E-75CF-EC8E-055F-14FADCF584C2" containerWithKeyObject="C72EEAD2-B409-6514-8800-7395E4125884" localFKIndex="62ECB98D-F2F0-E18B-DF20-A9C140B5D539" name="IzdatiLekovi_Lekovi_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:19:46 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Lekovi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>09A6E10A-51F0-DA0B-2801-B454A129A71A</referredTableID>
+<keyObject>1B45C927-0D74-7DC2-FAB8-94BE47E7593C</keyObject>
+<referredKeyID>1B45C927-0D74-7DC2-FAB8-94BE47E7593C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LekID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

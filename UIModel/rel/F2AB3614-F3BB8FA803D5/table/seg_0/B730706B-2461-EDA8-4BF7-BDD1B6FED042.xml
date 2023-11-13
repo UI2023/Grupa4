@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="600E6F3E-96C5-C4CB-9804-C4DB0486BCCB" name="OpremaUSali">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B730706B-2461-EDA8-4BF7-BDD1B6FED042" name="Odbici">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:09:52 UTC</createdTime>
+<createdTime>2023-11-13 21:47:23 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_30</ordsAlias>
+<ordsAlias>table_51</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="OpremaUSaliID" id="181AB691-B5CA-EE0E-8370-74ED2C395C91">
+<Column name="ID" id="0C90DC4B-BF23-0DA4-DB83-281C67463AC1">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:15 UTC</createdTime>
+<createdTime>2023-11-13 21:47:38 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MedicinskaOprema_OpremaID" id="A7B0DFC8-DFDF-0DF6-BEDA-388C67D8954F">
+<Column name="Iznos" id="9C5EC2B6-35B8-582B-2802-32E46DB407BC">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:22 UTC</createdTime>
+<createdTime>2023-11-13 21:48:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="DBDD91AC-3FEE-1190-8AFF-D9FFA4E9B6E1">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:48:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="BF917D25-3B39-66B5-7B84-9BE76655F0C1">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:48:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +51,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="356CA7EF-CC76-60C6-F252-77852E93FE9F" referredColumn="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+<colAssociation fkAssociation="CA42DE6E-BB8C-BE5B-CF52-41166FB09180" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
 </associations>
 </Column>
-<Column name="OperativnaSala_SalaID" id="287B83E9-778F-6461-7F9C-CECDFCAC1C45">
+<Column name="TipOdbitka_ID" id="416ABD01-CB65-4A22-113E-BB7712FC3187">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:28 UTC</createdTime>
+<createdTime>2023-11-13 21:49:50 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,56 +65,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D66B4A92-ED0D-4F6F-D634-5BA4453DEC90" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
-</associations>
-</Column>
-<Column name="OperativnaSala_Naziv" id="4A627D37-8316-BEBB-AA5E-48E14E2A0AE6">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:28 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D66B4A92-ED0D-4F6F-D634-5BA4453DEC90" referredColumn="F977B8DA-796C-7895-4B38-9EEE2C8627E5"/>
+<colAssociation fkAssociation="48C100D2-779D-9392-B069-C46213C9C327" referredColumn="40E1CCE3-9EB0-0E09-A60E-FA8CA04E8B49"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5B2C7F95-D3FF-76B5-DCE7-001023D23E20" name="OpremaUSali_PK">
+<ind_PK_UK id="574A2D04-1D69-8FA2-C52B-ED4E6402D6E6" name="Odbici_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:15 UTC</createdTime>
+<createdTime>2023-11-13 21:47:38 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="181AB691-B5CA-EE0E-8370-74ED2C395C91"/>
+<colUsage columnID="0C90DC4B-BF23-0DA4-DB83-281C67463AC1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="10DF2F8D-1060-0F5F-F968-3E8BE5F823B5" name="OpremaUSali_MedicinskaOprema_FK">
+<ind_PK_UK id="4453608C-A4C3-83CB-2D2B-41763F6800DD" name="Odbici_Zaposleni_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:22 UTC</createdTime>
+<createdTime>2023-11-13 21:48:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A7B0DFC8-DFDF-0DF6-BEDA-388C67D8954F"/>
+<colUsage columnID="BF917D25-3B39-66B5-7B84-9BE76655F0C1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E26DD62C-F888-6DD0-DDDF-41ACA59F551A" name="OpremaUSali_OperativnaSala_FK">
+<ind_PK_UK id="DFA433DC-EB20-C3DF-CBC1-D0DAD9B85583" name="Odbici_TipOdbitka_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:10:28 UTC</createdTime>
+<createdTime>2023-11-13 21:49:50 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="287B83E9-778F-6461-7F9C-CECDFCAC1C45"/>
-<colUsage columnID="4A627D37-8316-BEBB-AA5E-48E14E2A0AE6"/>
+<colUsage columnID="416ABD01-CB65-4A22-113E-BB7712FC3187"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

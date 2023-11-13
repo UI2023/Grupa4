@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D27174FE-3D3B-C24F-966F-17826832C578" name="UlogaUTimu">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:48:01 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_36</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UlogaID" id="7EC1A074-9674-3242-3DB4-0C5E5DBE1BC9">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:48:27 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AC9A630C-457B-42B2-6225-EFA3B1456AE4" name="UlogaUTimu_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:48:27 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7EC1A074-9674-3242-3DB4-0C5E5DBE1BC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

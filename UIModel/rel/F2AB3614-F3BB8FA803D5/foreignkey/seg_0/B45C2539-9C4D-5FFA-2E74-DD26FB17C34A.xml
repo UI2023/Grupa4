@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4922EF4F-C13A-ABE3-6249-7530BBE24281" containerWithKeyObject="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" localFKIndex="F5AB547B-9681-D3CB-2A69-B1AA877DFF2D" name="RasporedOperacija_Pregled_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B45C2539-9C4D-5FFA-2E74-DD26FB17C34A" containerWithKeyObject="1B713908-7936-CAFE-CC01-F761CBC2958C" localFKIndex="64BC5E55-474B-B6FA-3489-56FE0C35C7B2" name="Terapije_Pregled_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:03:10 UTC</createdTime>
+<createdTime>2023-11-13 20:42:18 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>Pregled</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

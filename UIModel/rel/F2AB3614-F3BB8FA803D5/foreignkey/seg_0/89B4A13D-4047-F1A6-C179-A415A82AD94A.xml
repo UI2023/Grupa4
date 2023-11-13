@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="89B4A13D-4047-F1A6-C179-A415A82AD94A" containerWithKeyObject="EC8C31C8-25F7-DED9-BC67-1CE74984B277" localFKIndex="F24AD536-EFBF-702F-E8F7-7793EE8F2B70" name="KarakteristikaSale_Karakteristika_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:52:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Karakteristika</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>81B02763-5D95-12C0-B2E7-1EC74F83EBC4</referredTableID>
+<keyObject>E8FF2402-3C53-C582-E44A-CC22EBCA703A</keyObject>
+<referredKeyID>E8FF2402-3C53-C582-E44A-CC22EBCA703A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>KarakteristikaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

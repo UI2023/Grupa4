@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E8E99D0C-F56F-023A-675F-8DE4CCAE74A3" name="Doktori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C72EEAD2-B409-6514-8800-7395E4125884" name="IzdatiLekovi">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:06:51 UTC</createdTime>
+<createdTime>2023-11-13 20:16:49 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_2</ordsAlias>
+<ordsAlias>table_41</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DoktorID" id="DAF35C81-A41A-65EA-13A7-12E7ACFA3839">
+<Column name="IzdatLekID" id="CD41DCF7-A595-ACC0-F686-5608DFE83311">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:07:33 UTC</createdTime>
+<createdTime>2023-11-13 20:17:59 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,47 +18,32 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Ime" id="F4A16170-91A8-BEA6-8C25-CACC18FFDF5A">
+<Column name="Kolicina" id="4C3C9735-F32B-8D2C-105F-A9DD854D19E3">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:07:49 UTC</createdTime>
+<createdTime>2023-11-13 20:18:53 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Prezime" id="3BB84FBB-EC84-64B8-F07C-67ED7D4239F6">
+<Column name="DatumIzdavanja" id="E135F498-D675-7946-6803-231F8E5D52F3">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:08:36 UTC</createdTime>
+<createdTime>2023-11-13 20:19:11 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kontakt" id="90693258-B7FC-CA5A-64C7-038A32B70C96">
+<Column name="Lekovi_LekID" id="5E531F30-8930-3480-1623-BBFD3CE7F73D">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:09:26 UTC</createdTime>
+<createdTime>2023-11-13 20:19:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Specijalizacija_SpecijalizacijaID" id="26E63A51-32C2-597C-146F-1DE37D89AFA6">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:22:19 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -66,12 +51,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FA5C9981-2B98-A6B5-9C64-3EBD582834B8" referredColumn="5342B1D4-0AB1-3677-DA3A-AAFC79BE2E8F"/>
+<colAssociation fkAssociation="6BB8067E-75CF-EC8E-055F-14FADCF584C2" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
 </associations>
 </Column>
-<Column name="Zaposleni_ZaposleniID" id="42DCFD15-CD73-1BD2-AD8F-EE4D8EB36995">
+<Column name="Pacijenti_PacijentID" id="FF5BD1DF-25F3-5184-97BA-C3EA4D479648">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-23 16:15:26 UTC</createdTime>
+<createdTime>2023-11-13 20:31:09 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -80,40 +65,64 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FACD166E-4416-9E7E-87F5-69A85BB8AB8D" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+<colAssociation fkAssociation="887ED7B5-E4E2-6E24-09C3-55223B8F969E" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="84395026-68F2-6B71-12CB-5E2DC55CAC54">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:32:41 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FB9FA0D-222B-3EC4-8016-683E6C1834F6" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7622FBE3-2BF5-599D-872A-12D8279FB7F2" name="Doktori_PK">
+<ind_PK_UK id="FBE259F9-C02A-85D9-FDDE-C93DA3C8DCFB" name="IzdatiLekovi_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:07:33 UTC</createdTime>
+<createdTime>2023-11-13 20:17:59 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DAF35C81-A41A-65EA-13A7-12E7ACFA3839"/>
+<colUsage columnID="CD41DCF7-A595-ACC0-F686-5608DFE83311"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="576EAF69-9DE0-0974-F7C8-5A7640C0873F" name="Doktori_Specijalizacija_FK">
+<ind_PK_UK id="62ECB98D-F2F0-E18B-DF20-A9C140B5D539" name="IzdatiLekovi_Lekovi_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-09 17:22:19 UTC</createdTime>
+<createdTime>2023-11-13 20:19:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="26E63A51-32C2-597C-146F-1DE37D89AFA6"/>
+<colUsage columnID="5E531F30-8930-3480-1623-BBFD3CE7F73D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C4F8FEAB-1BCF-3642-622E-FDB80685A004" name="Doktori_Zaposleni_FK">
+<ind_PK_UK id="AC44D3CB-995A-441A-C47D-7B55B7DA8DB9" name="IzdatiLekovi_Pacijenti_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-23 16:15:26 UTC</createdTime>
+<createdTime>2023-11-13 20:31:09 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="42DCFD15-CD73-1BD2-AD8F-EE4D8EB36995"/>
+<colUsage columnID="FF5BD1DF-25F3-5184-97BA-C3EA4D479648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F728D8C-D0EC-6F17-4F26-9CF2427F1A36" name="IzdatiLekovi_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:32:41 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84395026-68F2-6B71-12CB-5E2DC55CAC54"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

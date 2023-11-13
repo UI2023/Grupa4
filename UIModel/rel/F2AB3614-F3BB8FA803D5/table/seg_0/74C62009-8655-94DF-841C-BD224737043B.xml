@@ -29,20 +29,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Izvestaji_IzvestajId" id="1751D74D-E2FC-47AB-7682-3D9F0C25CC9F">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-27 09:43:55 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="95971D0E-D0F4-0DD3-6296-7C54A889BDAA" referredColumn="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
-</associations>
-</Column>
 <Column name="PregledKodSpecijaliste_PKSID" id="A9E2B829-ACB5-3E53-8D7A-1FC764E45E18">
 <createdBy>lazarf</createdBy>
 <createdTime>2023-10-27 09:49:12 UTC</createdTime>
@@ -53,9 +39,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="9ADDFD52-DC2B-4FEC-C3E3-A19319EA4FBE" referredColumn="93327D14-2974-2B1B-88D7-3DA257B52379"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -68,26 +51,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="0FE8CB2F-3079-DAA6-295B-547F95E6D771"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="298A5AB1-230F-8937-6B82-1D8CAA20A55B" name="Uput_Izvestaji_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-27 09:43:55 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="1751D74D-E2FC-47AB-7682-3D9F0C25CC9F"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="F9B16FA0-E34E-F849-2AE0-F2E37CD6E250" name="Uput_PregledKodSpecijaliste_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-27 09:49:12 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A9E2B829-ACB5-3E53-8D7A-1FC764E45E18"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

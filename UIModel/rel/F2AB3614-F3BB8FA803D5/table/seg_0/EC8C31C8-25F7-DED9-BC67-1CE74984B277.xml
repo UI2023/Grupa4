@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" name="RasporedOperacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC8C31C8-25F7-DED9-BC67-1CE74984B277" name="KarakteristikaSale">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:53:27 UTC</createdTime>
+<createdTime>2023-11-13 19:51:40 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_28</ordsAlias>
+<ordsAlias>table_38</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="RasporedID" id="53402BAA-044E-85C0-CF59-8AA6077FC609">
+<Column name="KarakteristikaSaleID" id="1FDA53B6-D4F9-642C-AA25-C9B367EBFBA0">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 19:52:11 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumVremeOperacije" id="90FA69BD-11B5-F5C2-8218-F4CA358023AF">
+<Column name="OperativnaSala_SalaID" id="911D8AAC-FC94-25F3-84E5-80B76050B76C">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:24 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="OperativnaSala_SalaID" id="2689F086-E8FE-80AA-FC1E-EE5CDAA97283">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 19:52:22 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9DECFABB-2858-8148-38C9-0110918E4458" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
+<colAssociation fkAssociation="373E50CC-1E18-2803-6688-BAF3E026BE1A" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
 </associations>
 </Column>
-<Column name="StacionarnoLecenje_ID" id="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6">
+<Column name="Karakteristika_KarakteristikaID" id="F69B3387-3A18-48D3-C4B6-1915B8AE868B">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 19:52:28 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,40 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="136A18B7-3A43-F5F9-D713-21E9599DF756" referredColumn="70FDBCE7-5B5C-6C66-F2F9-2F88162E8C71"/>
+<colAssociation fkAssociation="89B4A13D-4047-F1A6-C179-A415A82AD94A" referredColumn="88CD317B-0938-2FA7-E2F8-1E100C32B856"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F5908615-CC6B-9040-992A-FBD96DBEF10F" name="RasporedOperacija_PK">
+<ind_PK_UK id="FACD8605-009F-25FD-1265-5B53E5A92CCD" name="KarakteristikaSale_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 19:52:11 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="53402BAA-044E-85C0-CF59-8AA6077FC609"/>
+<colUsage columnID="1FDA53B6-D4F9-642C-AA25-C9B367EBFBA0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EA7FAC41-5659-22FF-E9B1-BB240B3FFC90" name="RasporedOperacija_OperativnaSala_FK">
+<ind_PK_UK id="52B2E53F-BE76-2CE5-A580-BF43F2D460BE" name="KarakteristikaSale_OperativnaSala_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 19:52:22 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2689F086-E8FE-80AA-FC1E-EE5CDAA97283"/>
+<colUsage columnID="911D8AAC-FC94-25F3-84E5-80B76050B76C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ECFD4BB5-0620-79CE-3A3F-DE01EFB1A0A7" name="RasporedOperacija_StacionarnoLecenje_FK">
+<ind_PK_UK id="F24AD536-EFBF-702F-E8F7-7793EE8F2B70" name="KarakteristikaSale_Karakteristika_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 19:52:28 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6"/>
+<colUsage columnID="F69B3387-3A18-48D3-C4B6-1915B8AE868B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

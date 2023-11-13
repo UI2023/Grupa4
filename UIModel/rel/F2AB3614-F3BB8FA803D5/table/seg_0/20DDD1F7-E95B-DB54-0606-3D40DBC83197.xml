@@ -87,6 +87,21 @@
 <colAssociation fkAssociation="6E94403C-C7FC-4F70-B177-187E26AD7667" referredColumn="05CB217B-4EED-9CAB-E175-29A63FDCF6ED"/>
 </associations>
 </Column>
+<Column name="Uput_UputID" id="D9B05AE7-8F74-5FA0-E920-DFAFEAEC94B7">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:33:42 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F5329C8-06D6-42C1-A2C6-ED0E738F647A" referredColumn="0FE8CB2F-3079-DAA6-295B-547F95E6D771"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E4FED36E-F127-FFE6-6D9D-B273F54B2830" name="Pregled_PK">
@@ -148,6 +163,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="D3C72071-FF65-C709-8066-7C23B08CBAA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7E34CD4-7925-2326-7086-DEACB12CA0A2" name="Pregled_Uput_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:33:42 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B05AE7-8F74-5FA0-E920-DFAFEAEC94B7"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

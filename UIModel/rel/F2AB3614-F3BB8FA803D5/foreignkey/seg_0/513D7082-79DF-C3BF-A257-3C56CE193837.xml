@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4236BA17-F7FF-C7B4-8A1B-BB64FA3111FE" containerWithKeyObject="1B713908-7936-CAFE-CC01-F761CBC2958C" localFKIndex="43DB65F4-09BD-80E2-1A80-0AF981EBDB5F" name="Terapije_Lekovi_FK">
-<createdBy>Ognjen</createdBy>
-<createdTime>2023-10-16 17:30:02 UTC</createdTime>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="513D7082-79DF-C3BF-A257-3C56CE193837" containerWithKeyObject="FC39C24C-D77A-8782-2D4A-1DF016F7E245" localFKIndex="811ED9BF-369D-D883-7506-1CABA1A3761D" name="ProtokolTerapije_Lekovi_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:36:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>Lekovi</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

@@ -52,9 +52,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Terapije_TerapijaID" id="5881524E-EDE0-C970-12EB-143F780ADD90">
-<createdBy>Ognjen</createdBy>
-<createdTime>2023-10-16 17:22:03 UTC</createdTime>
+<Column name="Uput_UputID" id="7C6F7391-AE12-5E21-9A79-20ED73C7A20E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:32:23 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,7 +63,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="DB4B1375-6861-A661-1EE6-6D8997F4A1E7" referredColumn="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
+<colAssociation fkAssociation="BA425473-0152-E1E8-0CE6-C5D38CF8634C" referredColumn="0FE8CB2F-3079-DAA6-295B-547F95E6D771"/>
 </associations>
 </Column>
 </columns>
@@ -79,14 +79,14 @@
 <colUsage columnID="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DC803808-42BA-B9C5-E7D6-5D4840E187C2" name="Izvestaji_Terapije_FK">
-<createdBy>Ognjen</createdBy>
-<createdTime>2023-10-16 17:22:03 UTC</createdTime>
+<ind_PK_UK id="4B7E8024-E977-2FDF-6804-DD4A7D8A1166" name="Izvestaji_Uput_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:32:23 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5881524E-EDE0-C970-12EB-143F780ADD90"/>
+<colUsage columnID="7C6F7391-AE12-5E21-9A79-20ED73C7A20E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

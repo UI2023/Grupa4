@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" name="RasporedOperacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC39C24C-D77A-8782-2D4A-1DF016F7E245" name="ProtokolTerapije">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:53:27 UTC</createdTime>
+<createdTime>2023-11-13 20:10:30 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_28</ordsAlias>
+<ordsAlias>table_39</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="RasporedID" id="53402BAA-044E-85C0-CF59-8AA6077FC609">
+<Column name="ProtokolID" id="513C4C8E-7B72-AD35-ED60-35412EA4E65E">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 20:10:51 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,33 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumVremeOperacije" id="90FA69BD-11B5-F5C2-8218-F4CA358023AF">
+<Column name="NacinPrimene" id="44299928-E321-235B-9B55-0C6DBBA45390">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:24 UTC</createdTime>
+<createdTime>2023-11-13 20:11:18 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OperativnaSala_SalaID" id="2689F086-E8FE-80AA-FC1E-EE5CDAA97283">
+<Column name="SpecificnaDoza" id="7AAA5F92-FBB7-822C-AFD7-CF2C6DD78D02">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 20:11:39 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Terapije_TerapijaID" id="B75539EE-6E8D-8830-3A29-37530C9A017B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:16:28 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +53,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9DECFABB-2858-8148-38C9-0110918E4458" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
+<colAssociation fkAssociation="37591C6A-3A6E-12BC-AA8D-D69C77943A9E" referredColumn="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
 </associations>
 </Column>
-<Column name="StacionarnoLecenje_ID" id="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6">
+<Column name="Lekovi_LekID" id="A395C31F-5029-BDC1-D34C-861D00F00C24">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 20:36:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,40 +67,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="136A18B7-3A43-F5F9-D713-21E9599DF756" referredColumn="70FDBCE7-5B5C-6C66-F2F9-2F88162E8C71"/>
+<colAssociation fkAssociation="513D7082-79DF-C3BF-A257-3C56CE193837" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F5908615-CC6B-9040-992A-FBD96DBEF10F" name="RasporedOperacija_PK">
+<ind_PK_UK id="C76D258A-865F-CD60-94C1-057D9B57AFE4" name="ProtokolTerapije_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:05 UTC</createdTime>
+<createdTime>2023-11-13 20:10:51 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="53402BAA-044E-85C0-CF59-8AA6077FC609"/>
+<colUsage columnID="513C4C8E-7B72-AD35-ED60-35412EA4E65E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="EA7FAC41-5659-22FF-E9B1-BB240B3FFC90" name="RasporedOperacija_OperativnaSala_FK">
+<ind_PK_UK id="C4283C46-AE78-3881-E02D-9BD22CB85B5D" name="ProtokolTerapije_Terapije_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:02:02 UTC</createdTime>
+<createdTime>2023-11-13 20:16:28 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2689F086-E8FE-80AA-FC1E-EE5CDAA97283"/>
+<colUsage columnID="B75539EE-6E8D-8830-3A29-37530C9A017B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ECFD4BB5-0620-79CE-3A3F-DE01EFB1A0A7" name="RasporedOperacija_StacionarnoLecenje_FK">
+<ind_PK_UK id="811ED9BF-369D-D883-7506-1CABA1A3761D" name="ProtokolTerapije_Lekovi_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<createdTime>2023-11-13 20:36:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6"/>
+<colUsage columnID="A395C31F-5029-BDC1-D34C-861D00F00C24"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

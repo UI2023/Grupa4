@@ -8,7 +8,7 @@
 <referredTableID>0017FB10-4925-B58A-B3D9-B1F467E88519</referredTableID>
 <keyObject>B3CF5F13-1367-F3BC-CB73-E47FFF03D2F3</keyObject>
 <referredKeyID>B3CF5F13-1367-F3BC-CB73-E47FFF03D2F3</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <refColNames>SpecijalizacijaID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>

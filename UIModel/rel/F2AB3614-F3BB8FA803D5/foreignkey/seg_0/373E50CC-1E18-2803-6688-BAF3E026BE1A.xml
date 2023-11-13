@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="373E50CC-1E18-2803-6688-BAF3E026BE1A" containerWithKeyObject="EC8C31C8-25F7-DED9-BC67-1CE74984B277" localFKIndex="52B2E53F-BE76-2CE5-A580-BF43F2D460BE" name="KarakteristikaSale_OperativnaSala_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 19:52:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>OperativnaSala</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CEB552A4-2E1B-1C2E-C78D-1F099E6B53F6</referredTableID>
+<keyObject>4D052D44-5180-58C2-1A27-93C67B58E71F</keyObject>
+<referredKeyID>4D052D44-5180-58C2-1A27-93C67B58E71F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>SalaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2861C6AD-6307-F54E-5757-D405117E86AC" containerWithKeyObject="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" localFKIndex="0A1D44A2-7024-4F50-8C6F-E8E049D036E9" name="Plate_Odbici_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:52:52 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Odbici</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B730706B-2461-EDA8-4BF7-BDD1B6FED042</referredTableID>
+<keyObject>574A2D04-1D69-8FA2-C52B-ED4E6402D6E6</keyObject>
+<referredKeyID>574A2D04-1D69-8FA2-C52B-ED4E6402D6E6</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

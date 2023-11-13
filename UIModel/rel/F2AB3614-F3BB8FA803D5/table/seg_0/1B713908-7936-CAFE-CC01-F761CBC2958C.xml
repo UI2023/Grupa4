@@ -54,18 +54,17 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Lekovi_LekID" id="A812820B-CA2C-9EDD-B9B9-529F3483B281">
-<createdBy>Ognjen</createdBy>
-<createdTime>2023-10-16 17:30:02 UTC</createdTime>
+<Column name="Pregled_PregledID" id="B7F6E9C6-4AC1-4188-5BB4-3C760010BD97">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:42:18 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4236BA17-F7FF-C7B4-8A1B-BB64FA3111FE" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+<colAssociation fkAssociation="B45C2539-9C4D-5FFA-2E74-DD26FB17C34A" referredColumn="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
 </associations>
 </Column>
 </columns>
@@ -81,14 +80,14 @@
 <colUsage columnID="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43DB65F4-09BD-80E2-1A80-0AF981EBDB5F" name="Terapije_Lekovi_FK">
-<createdBy>Ognjen</createdBy>
-<createdTime>2023-10-16 17:30:02 UTC</createdTime>
+<ind_PK_UK id="64BC5E55-474B-B6FA-3489-56FE0C35C7B2" name="Terapije_Pregled_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 20:42:18 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A812820B-CA2C-9EDD-B9B9-529F3483B281"/>
+<colUsage columnID="B7F6E9C6-4AC1-4188-5BB4-3C760010BD97"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

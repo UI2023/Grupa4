@@ -54,7 +54,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
-<colUsage columnID="F977B8DA-796C-7895-4B38-9EEE2C8627E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="DA6493BE-6452-CA44-E73E-143B859D4E28" name="OperativnaSala_Odeljenja_FK">

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="136A18B7-3A43-F5F9-D713-21E9599DF756" containerWithKeyObject="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" localFKIndex="ECFD4BB5-0620-79CE-3A3F-DE01EFB1A0A7" name="RasporedOperacija_StacionarnoLecenje_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:26:00 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>StacionarnoLecenje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D340E2FA-E12C-D630-8638-A9AF5F0E4EDA</referredTableID>
+<keyObject>B430F77D-FC99-584D-5FB7-4309C22BFD69</keyObject>
+<referredKeyID>B430F77D-FC99-584D-5FB7-4309C22BFD69</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

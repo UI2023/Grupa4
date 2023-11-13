@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F47F1C15-B130-D73B-6BD3-6F7B57DBA2A5" containerWithKeyObject="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" localFKIndex="C299E14E-4D59-8846-CCB1-7A7CCC33B15E" name="Plate_Ugovori_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-11-13 21:52:35 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Ugovori</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>15513A94-D777-3055-6BFC-7F7B8745DC05</referredTableID>
+<keyObject>F439FAD9-015F-2F1E-35E1-F749FCC46DED</keyObject>
+<referredKeyID>F439FAD9-015F-2F1E-35E1-F749FCC46DED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UgovorID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
