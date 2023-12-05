@@ -68,6 +68,17 @@
 <colAssociation fkAssociation="FE6B137B-837B-CFB3-934E-EF03E1D1BA0F" referredColumn="B84C826C-4575-9E02-65ED-74B9C6A48E96"/>
 </associations>
 </Column>
+<Column name="BrojSatiOdsustva" id="EEE410C2-9EAB-0AE7-31A8-EBB9E4493C15">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:32:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="B7679E2A-C3F8-C3A6-8262-2E4FACF1671C" name="OdsustvaIGodisnjiOdmori_PK">

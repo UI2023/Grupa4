@@ -54,17 +54,33 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Pregled_PregledID" id="B7F6E9C6-4AC1-4188-5BB4-3C760010BD97">
+<Column name="Oboljenja_OboljenjeID" id="ABB245BA-FDD3-C29E-E47C-CF2D50D015A9">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:42:18 UTC</createdTime>
+<createdTime>2023-12-04 23:47:56 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="B45C2539-9C4D-5FFA-2E74-DD26FB17C34A" referredColumn="08F34175-E8C6-0FA4-BB23-3CA001813A38"/>
+<colAssociation fkAssociation="6572FA47-EABF-EAC8-0024-EE6D4339A8ED" referredColumn="7347ABE3-6491-F99A-4E05-741CFE899B25"/>
+</associations>
+</Column>
+<Column name="Oboljenja_Naziv" id="43ABCF75-5303-1F7B-0124-6BEFE5EAA52C">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:47:56 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6572FA47-EABF-EAC8-0024-EE6D4339A8ED" referredColumn="CFC5412E-F4BF-B8BC-6100-29A031457771"/>
 </associations>
 </Column>
 </columns>
@@ -80,14 +96,15 @@
 <colUsage columnID="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="64BC5E55-474B-B6FA-3489-56FE0C35C7B2" name="Terapije_Pregled_FK">
+<ind_PK_UK id="EF22A9B7-2ACC-0292-0D3A-B7837A9FCA94" name="Terapije_Oboljenja_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:42:18 UTC</createdTime>
+<createdTime>2023-12-04 23:47:56 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="B7F6E9C6-4AC1-4188-5BB4-3C760010BD97"/>
+<colUsage columnID="ABB245BA-FDD3-C29E-E47C-CF2D50D015A9"/>
+<colUsage columnID="43ABCF75-5303-1F7B-0124-6BEFE5EAA52C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

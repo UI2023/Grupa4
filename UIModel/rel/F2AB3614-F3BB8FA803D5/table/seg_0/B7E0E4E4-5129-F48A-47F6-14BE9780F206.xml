@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2946086B-1626-126C-CC0C-DB3F83CEAB8D" name="TimZaOperaciju">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7E0E4E4-5129-F48A-47F6-14BE9780F206" name="TerapijaLekoviProtokol">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:54:53 UTC</createdTime>
+<createdTime>2023-12-04 23:42:40 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_29</ordsAlias>
+<ordsAlias>table_51</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="TimId" id="08E70413-EC9F-B0D6-A0F6-852ADB03B528">
+<Column name="ID" id="A2EFCAD6-CD43-20E6-8300-E5A322B8B84D">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:55:14 UTC</createdTime>
+<createdTime>2023-12-04 23:42:57 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="UlogaUTimu_UlogaID" id="A8C89278-2DF7-0E9C-861F-EDA0E2DFA11B">
+<Column name="TerapijaLekovi_ID" id="8DB08D8B-24DA-174A-14FB-E73FD38122BC">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 19:48:54 UTC</createdTime>
+<createdTime>2023-12-04 23:43:29 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="687E5108-869A-0933-87E8-B578D98D0FDD" referredColumn="7EC1A074-9674-3242-3DB4-0C5E5DBE1BC9"/>
+<colAssociation fkAssociation="EF01057E-1580-5CB1-D14C-B297B6E2A71A" referredColumn="4D50245E-C8DB-8F5B-CD69-A07AA1705EC8"/>
 </associations>
 </Column>
-<Column name="Zaposleni_ZaposleniID" id="F8693CFF-BDB8-9A53-25F4-0A8700AADF65">
+<Column name="ProtokolTerapije_ProtokolID" id="88ABDDE8-C4DD-46A9-623A-9F46A7EFE8D3">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:08:14 UTC</createdTime>
+<createdTime>2023-12-04 23:43:33 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,40 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4555E436-B000-6B49-C336-2D53595956BB" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+<colAssociation fkAssociation="D1E7AA2C-7D67-B779-315F-A809311A2CBF" referredColumn="513C4C8E-7B72-AD35-ED60-35412EA4E65E"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D7DFBEB6-C886-DAF6-7BD7-84C990AEF049" name="TimZaOperaciju_PK">
+<ind_PK_UK id="C5C07458-F253-9304-79F0-596BD00220A0" name="TerapijaLekoviProtokol_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 16:55:34 UTC</createdTime>
+<createdTime>2023-12-04 23:42:57 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="08E70413-EC9F-B0D6-A0F6-852ADB03B528"/>
+<colUsage columnID="A2EFCAD6-CD43-20E6-8300-E5A322B8B84D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E7CD7DC2-4CFF-509E-AEAE-6772014CD908" name="TimZaOperaciju_UlogaUTimu_FK">
+<ind_PK_UK id="2F4DC964-2610-7DC0-F56C-C093074239C6" name="TerapijaLekoviProtokol_TerapijaLekovi_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 19:48:54 UTC</createdTime>
+<createdTime>2023-12-04 23:43:29 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A8C89278-2DF7-0E9C-861F-EDA0E2DFA11B"/>
+<colUsage columnID="8DB08D8B-24DA-174A-14FB-E73FD38122BC"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="50D50D04-C62D-5B5E-1F74-690224B7709E" name="TimZaOperaciju_Zaposleni_FK">
+<ind_PK_UK id="308823D1-E445-2CF3-61D4-F20C7C2AA2F2" name="TerapijaLekoviProtokol_ProtokolTerapije_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:08:14 UTC</createdTime>
+<createdTime>2023-12-04 23:43:33 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F8693CFF-BDB8-9A53-25F4-0A8700AADF65"/>
+<colUsage columnID="88ABDDE8-C4DD-46A9-623A-9F46A7EFE8D3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

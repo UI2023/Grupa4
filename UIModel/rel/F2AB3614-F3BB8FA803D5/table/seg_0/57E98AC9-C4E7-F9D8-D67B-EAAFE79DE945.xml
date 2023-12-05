@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="57E98AC9-C4E7-F9D8-D67B-EAAFE79DE945" name="ObracunskiPeriod">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:32:55 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PeriodID" id="526AC411-3DC3-A194-3557-1B4897C3D317">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:33:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumOD" id="89C23BA3-A7DF-D648-E4AF-3FB62AF723AF">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:33:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumDO" id="0AAE60C2-39F4-1D8C-82C6-B5E37392BFDB">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:33:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE6991D9-2AA0-165C-AD66-C00816B6D744" name="ObracunskiPeriod_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:33:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="526AC411-3DC3-A194-3557-1B4897C3D317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CDE661E7-63F9-E6FB-58F9-CB4D7558B7C7" containerWithKeyObject="C6055F38-9CAE-00D8-8074-A792AC852777" localFKIndex="556383C1-7BB6-7901-72F8-BDD02DA41AE7" name="SmenaDodatak_Dodaci_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:56:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Dodaci</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC0A7E3C-6529-D0C6-BAB9-6FD525B0A703</referredTableID>
+<keyObject>1C2C3388-B103-9941-ACC8-C23230B868C7</keyObject>
+<referredKeyID>1C2C3388-B103-9941-ACC8-C23230B868C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DodatakID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -69,6 +69,73 @@
 <colAssociation fkAssociation="9ACA3439-94EB-5059-CDB7-4B904D5520DD" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
 </associations>
 </Column>
+<Column name="TipSmene_SmenaID" id="DB8133D3-EF7F-C68D-0392-82E454694C8C">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:29:32 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlaniraniPocetakSmene" id="A4EC1418-93AD-048D-0EB7-404B868210B5">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:30:06 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PlaniraniKrajSmene" id="9D04FCCA-9DDD-D0DF-28BD-EAE754008792">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:30:19 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StvarniPocetakSmene" id="EA42AECB-6B8E-A59D-01F8-AE437FAC86EF">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:30:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StvarniKrajSmene" id="C016D00A-7BF5-1E27-5839-599E4CCB1F18">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:30:57 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StatusSmene" id="59D9709A-C49F-718B-24F8-4AC5A2A200E8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:35:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="5DAAAFFC-5F36-4AD3-8D2B-8315641ECFF7" name="SmesnkiRaspored_PK">

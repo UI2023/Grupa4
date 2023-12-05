@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="D1E7AA2C-7D67-B779-315F-A809311A2CBF" containerWithKeyObject="B7E0E4E4-5129-F48A-47F6-14BE9780F206" localFKIndex="308823D1-E445-2CF3-61D4-F20C7C2AA2F2" name="TerapijaLekoviProtokol_ProtokolTerapije_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:43:33 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>ProtokolTerapije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FC39C24C-D77A-8782-2D4A-1DF016F7E245</referredTableID>
+<keyObject>C76D258A-865F-CD60-94C1-057D9B57AFE4</keyObject>
+<referredKeyID>C76D258A-865F-CD60-94C1-057D9B57AFE4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ProtokolID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

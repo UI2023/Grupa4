@@ -44,20 +44,6 @@
 <colAssociation fkAssociation="18BC0FFF-D977-48B2-3B88-9009BCC6C2A0" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
 </associations>
 </Column>
-<Column name="OperativnaSala_SalaID" id="8F350048-5648-C7A0-3BF7-1451B89539AD">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:03:44 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="EAE44E9A-1010-603C-6EB2-B52436CFB311" referredColumn="356A8A3B-81A5-5F72-7475-0867A2C7E5C3"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E90B932A-4627-AE5A-C725-592C62CA2DA8" name="MedicinskiUredjaji_PK">
@@ -79,16 +65,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5A3D3752-CC39-548E-9886-A427C9841DE2"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="4DCD05B7-9441-16B3-A8C3-591C2FD85B69" name="MedicinskiUredjaji_OperativnaSala_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:03:44 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8F350048-5648-C7A0-3BF7-1451B89539AD"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

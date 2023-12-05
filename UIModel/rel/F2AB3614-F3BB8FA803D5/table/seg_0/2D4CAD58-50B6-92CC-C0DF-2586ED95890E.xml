@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" name="RasporedOperacija">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D4CAD58-50B6-92CC-C0DF-2586ED95890E" name="ZakazanaOperacija">
 <createdBy>lazarf</createdBy>
 <createdTime>2023-10-29 16:53:27 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
@@ -57,6 +57,20 @@
 <colAssociation fkAssociation="136A18B7-3A43-F5F9-D713-21E9599DF756" referredColumn="70FDBCE7-5B5C-6C66-F2F9-2F88162E8C71"/>
 </associations>
 </Column>
+<Column name="TimZaOperaciju_TimId" id="9D27AFCA-C5F4-316C-792B-4B5345E31907">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:11:17 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56E4636A-A995-DC3A-2FE2-08476F3B8B72" referredColumn="08E70413-EC9F-B0D6-A0F6-852ADB03B528"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F5908615-CC6B-9040-992A-FBD96DBEF10F" name="RasporedOperacija_PK">
@@ -88,6 +102,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="B64BD6EC-AA69-D002-97C5-3EA7399DCAE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9C58E78-679D-9A64-6C84-8E6F4247866A" name="ZakazanaOperacija_TimZaOperaciju_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:11:17 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D27AFCA-C5F4-316C-792B-4B5345E31907"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FC39C24C-D77A-8782-2D4A-1DF016F7E245" name="ProtokolTerapije">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2021BD35-DAC2-3C55-E492-4C2A0AB0042C" name="Recept">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:10:30 UTC</createdTime>
+<createdTime>2023-12-04 23:56:53 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_39</ordsAlias>
+<ordsAlias>table_53</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ProtokolID" id="513C4C8E-7B72-AD35-ED60-35412EA4E65E">
+<Column name="ReceptID" id="69F25383-2A0D-1A29-7C7F-62EB6555273A">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:10:51 UTC</createdTime>
+<createdTime>2023-12-04 23:57:34 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,29 +18,28 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NacinPrimene" id="44299928-E321-235B-9B55-0C6DBBA45390">
+<Column name="DatumIzdavanja" id="2C222174-D8D4-AEBB-A0B5-17050AFDE771">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:11:18 UTC</createdTime>
+<createdTime>2023-12-04 23:57:56 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="C76D258A-865F-CD60-94C1-057D9B57AFE4" name="ProtokolTerapije_PK">
+<ind_PK_UK id="1C0EF394-6D1E-764F-5868-5BE170CD60C7" name="Recept_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:10:51 UTC</createdTime>
+<createdTime>2023-12-04 23:57:34 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="513C4C8E-7B72-AD35-ED60-35412EA4E65E"/>
+<colUsage columnID="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

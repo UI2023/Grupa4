@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" name="Plate">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F9C20073-9AD4-DDE3-9176-8470C36CCD91" name="OboljenjaLekovi">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:32:49 UTC</createdTime>
+<createdTime>2023-12-04 23:45:13 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_35</ordsAlias>
+<ordsAlias>table_52</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PlataID" id="0FC6B899-9D16-808E-11B2-BC19BC6A67B3">
+<Column name="ID" id="17959B27-AE73-EC16-4020-815B2C861033">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<createdTime>2023-12-04 23:45:32 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,42 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IznosPlate" id="7A46381C-8190-A46D-95DC-8C03060CB5F4">
+<Column name="Lekovi_LekID" id="5F7080DB-14F0-87D7-4012-65B48294FD94">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:51 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="RadPoPozivu_ID" id="6E5486A8-2210-A2E4-54AA-05001100DDCD">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:52:43 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Odbici_ID" id="8691918D-0C52-4553-D815-61A79DF2418B">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:52:52 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ObracunskiPeriod_PeriodID" id="3CDF8087-4853-E1D4-0BCD-55B71D7236E6">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:34:08 UTC</createdTime>
+<createdTime>2023-12-04 23:45:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,30 +29,70 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E74E1C28-65A9-58A4-C0A9-9EC499211702" referredColumn="526AC411-3DC3-A194-3557-1B4897C3D317"/>
+<colAssociation fkAssociation="91C3E4B6-C713-7F56-B25D-9E5F03B1B4F7" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+</associations>
+</Column>
+<Column name="Oboljenja_OboljenjeID" id="9D304E85-A546-C7B4-C234-49F415EE770A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:45:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBFD4485-C266-3E89-5980-0C9C7FCBB135" referredColumn="7347ABE3-6491-F99A-4E05-741CFE899B25"/>
+</associations>
+</Column>
+<Column name="Oboljenja_Naziv" id="F6DC8146-89F0-8678-62AB-A4CAED7A948A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:45:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBFD4485-C266-3E89-5980-0C9C7FCBB135" referredColumn="CFC5412E-F4BF-B8BC-6100-29A031457771"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D14ACDC-231C-54A2-12A5-7D4A22CD4214" name="PlateINaknade_PK">
+<ind_PK_UK id="12B43D86-EC40-745C-C0C8-8875D784040A" name="OboljenjaLekovi_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<createdTime>2023-12-04 23:45:32 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0FC6B899-9D16-808E-11B2-BC19BC6A67B3"/>
+<colUsage columnID="17959B27-AE73-EC16-4020-815B2C861033"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2DC539F0-0060-100B-ACA0-DC7B1544593D" name="Plate_ObracunskiPeriod_FK">
+<ind_PK_UK id="8872DA9B-45E1-C57A-5E51-DB48460FA9F4" name="OboljenjaLekovi_Lekovi_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:34:08 UTC</createdTime>
+<createdTime>2023-12-04 23:45:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3CDF8087-4853-E1D4-0BCD-55B71D7236E6"/>
+<colUsage columnID="5F7080DB-14F0-87D7-4012-65B48294FD94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5BB0D38-8684-8C18-19E9-CC9DE0B137A9" name="OboljenjaLekovi_Oboljenja_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-04 23:45:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D304E85-A546-C7B4-C234-49F415EE770A"/>
+<colUsage columnID="F6DC8146-89F0-8678-62AB-A4CAED7A948A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

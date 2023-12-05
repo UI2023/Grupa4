@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E74E1C28-65A9-58A4-C0A9-9EC499211702" containerWithKeyObject="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" localFKIndex="2DC539F0-0060-100B-ACA0-DC7B1544593D" name="Plate_ObracunskiPeriod_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:34:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>ObracunskiPeriod</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>57E98AC9-C4E7-F9D8-D67B-EAAFE79DE945</referredTableID>
+<keyObject>BE6991D9-2AA0-165C-AD66-C00816B6D744</keyObject>
+<referredKeyID>BE6991D9-2AA0-165C-AD66-C00816B6D744</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PeriodID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

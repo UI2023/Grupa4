@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="81B70C6B-B48E-4B64-DAEB-DAEF04801E63" name="Plate">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6055F38-9CAE-00D8-8074-A792AC852777" name="SmenaDodatak">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:32:49 UTC</createdTime>
+<createdTime>2023-12-05 00:55:59 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_35</ordsAlias>
+<ordsAlias>table_60</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="PlataID" id="0FC6B899-9D16-808E-11B2-BC19BC6A67B3">
+<Column name="ID" id="608540DF-CC61-E15D-958E-66362D6186BD">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<createdTime>2023-12-05 00:56:15 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,42 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="IznosPlate" id="7A46381C-8190-A46D-95DC-8C03060CB5F4">
+<Column name="Datum" id="8C11D85C-2FD8-C186-920A-765041B68B1C">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:51 UTC</createdTime>
+<createdTime>2023-12-05 00:56:39 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="RadPoPozivu_ID" id="6E5486A8-2210-A2E4-54AA-05001100DDCD">
+<Column name="SmesnkiRaspored_SmenaID" id="7A0313C2-5A58-A7E2-C7C6-01E699B99AC8">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:52:43 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Odbici_ID" id="8691918D-0C52-4553-D815-61A79DF2418B">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:52:52 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ObracunskiPeriod_PeriodID" id="3CDF8087-4853-E1D4-0BCD-55B71D7236E6">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:34:08 UTC</createdTime>
+<createdTime>2023-12-05 00:56:43 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -62,30 +40,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="E74E1C28-65A9-58A4-C0A9-9EC499211702" referredColumn="526AC411-3DC3-A194-3557-1B4897C3D317"/>
+<colAssociation fkAssociation="164ADB4D-4721-21B3-40F0-2467EBBE8CDD" referredColumn="69A799A7-57C1-2880-9F09-3AF2EC468835"/>
+</associations>
+</Column>
+<Column name="Dodaci_DodatakID" id="AFD35670-4DEF-7D1B-10B9-A6046D9BF92A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:56:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDE661E7-63F9-E6FB-58F9-CB4D7558B7C7" referredColumn="F2397E2B-C5B7-BDC4-C83C-25E5890239AC"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="0D14ACDC-231C-54A2-12A5-7D4A22CD4214" name="PlateINaknade_PK">
+<ind_PK_UK id="2E4FDC7D-A220-0277-3F1B-CAB3202C6777" name="SmenaDodatak_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-10-29 17:33:07 UTC</createdTime>
+<createdTime>2023-12-05 00:56:15 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0FC6B899-9D16-808E-11B2-BC19BC6A67B3"/>
+<colUsage columnID="608540DF-CC61-E15D-958E-66362D6186BD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2DC539F0-0060-100B-ACA0-DC7B1544593D" name="Plate_ObracunskiPeriod_FK">
+<ind_PK_UK id="4123AB2A-CA85-656F-625D-0CFEFC35920B" name="SmenaDodatak_SmesnkiRaspored_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:34:08 UTC</createdTime>
+<createdTime>2023-12-05 00:56:43 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3CDF8087-4853-E1D4-0BCD-55B71D7236E6"/>
+<colUsage columnID="7A0313C2-5A58-A7E2-C7C6-01E699B99AC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="556383C1-7BB6-7901-72F8-BDD02DA41AE7" name="SmenaDodatak_Dodaci_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-05 00:56:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFD35670-4DEF-7D1B-10B9-A6046D9BF92A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
