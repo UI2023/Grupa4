@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="063FCCDE-9935-6143-5F7F-E04D5B12B455" containerWithKeyObject="A69F1981-840E-0286-9034-E1D4C9CFFC8F" localFKIndex="622EB43E-12AA-DF01-66E2-0C6AE1814285" name="TerapijaRecept_Terapije_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 15:47:31 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Terapije</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1B713908-7936-CAFE-CC01-F761CBC2958C</referredTableID>
+<keyObject>F06F082B-FC17-5104-6574-07F8E13A6F92</keyObject>
+<referredKeyID>F06F082B-FC17-5104-6574-07F8E13A6F92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>TerapijaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

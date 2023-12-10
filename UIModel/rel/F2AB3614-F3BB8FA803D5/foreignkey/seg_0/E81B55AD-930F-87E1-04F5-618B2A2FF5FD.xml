@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="164ADB4D-4721-21B3-40F0-2467EBBE8CDD" containerWithKeyObject="C6055F38-9CAE-00D8-8074-A792AC852777" localFKIndex="4123AB2A-CA85-656F-625D-0CFEFC35920B" name="SmenaDodatak_SmesnkiRaspored_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E81B55AD-930F-87E1-04F5-618B2A2FF5FD" containerWithKeyObject="1347D1AB-3F50-5CBF-1F2B-886A9E6C242B" localFKIndex="0E872FFE-5B12-A7E3-BE5E-8A9292A5AB6A" name="RadniSati_SmesnkiRaspored_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:43 UTC</createdTime>
+<createdTime>2023-12-10 16:37:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>SmesnkiRaspored</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

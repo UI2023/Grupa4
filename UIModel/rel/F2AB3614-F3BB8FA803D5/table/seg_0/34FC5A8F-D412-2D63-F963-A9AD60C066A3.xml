@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC0A7E3C-6529-D0C6-BAB9-6FD525B0A703" name="Dodaci">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="34FC5A8F-D412-2D63-F963-A9AD60C066A3" name="TIpSata">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:53:58 UTC</createdTime>
+<createdTime>2023-12-10 16:38:08 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_59</ordsAlias>
+<ordsAlias>table_58</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="DodatakID" id="F2397E2B-C5B7-BDC4-C83C-25E5890239AC">
+<Column name="ID" id="52F30E19-DEB9-8FBB-61EC-3928E443A914">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:54:20 UTC</createdTime>
+<createdTime>2023-12-10 16:38:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="C2C5DBCF-E6F2-0042-95CB-189DC899A33C">
+<Column name="Naziv" id="0F89EF96-1D3C-E8DB-DF40-03BEE9EDF5F8">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:54:36 UTC</createdTime>
+<createdTime>2023-12-10 16:38:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,28 +30,17 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ProcenatDodatka" id="03A7D19B-A6ED-F81D-85BF-7503E18A3046">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:55:18 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1C2C3388-B103-9941-ACC8-C23230B868C7" name="Dodaci_PK">
+<ind_PK_UK id="54FE416A-4EEF-FB36-C1B5-DC1863EEAE68" name="TIpSata_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:54:20 UTC</createdTime>
+<createdTime>2023-12-10 16:39:02 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F2397E2B-C5B7-BDC4-C83C-25E5890239AC"/>
+<colUsage columnID="52F30E19-DEB9-8FBB-61EC-3928E443A914"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

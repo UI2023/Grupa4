@@ -40,10 +40,11 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TerapijaLekovi_ID" id="DB08FAFD-225C-D108-C389-812DEEE5B066">
+<Column name="TerapijaRecept_ID" id="450464B3-B95E-709D-8684-956F3E631F72">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:51:17 UTC</createdTime>
+<createdTime>2023-12-10 15:49:01 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -51,7 +52,7 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="5946FEAF-8CBC-0401-C6BC-C05B3777B763" referredColumn="4D50245E-C8DB-8F5B-CD69-A07AA1705EC8"/>
+<colAssociation fkAssociation="9C1C64BA-E7A8-3CFE-1FEF-03277C01ED8A" referredColumn="9998F211-7AD1-F217-DAB3-9D2BDD206051"/>
 </associations>
 </Column>
 </columns>
@@ -67,14 +68,14 @@
 <colUsage columnID="CD41DCF7-A595-ACC0-F686-5608DFE83311"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DF971F2B-C413-7216-78A0-B143CD759104" name="IzdatiLekovi_TerapijaLekovi_FK">
+<ind_PK_UK id="1E86C418-BA06-A64A-0CA5-9338B9517FAB" name="IzdatiLekovi_TerapijaRecept_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:51:17 UTC</createdTime>
+<createdTime>2023-12-10 15:49:01 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DB08FAFD-225C-D108-C389-812DEEE5B066"/>
+<colUsage columnID="450464B3-B95E-709D-8684-956F3E631F72"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

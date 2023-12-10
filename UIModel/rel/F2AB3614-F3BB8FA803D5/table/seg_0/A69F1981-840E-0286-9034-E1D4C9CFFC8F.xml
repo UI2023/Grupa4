@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C6055F38-9CAE-00D8-8074-A792AC852777" name="SmenaDodatak">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A69F1981-840E-0286-9034-E1D4C9CFFC8F" name="TerapijaRecept">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:55:59 UTC</createdTime>
+<createdTime>2023-12-10 15:47:09 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_60</ordsAlias>
+<ordsAlias>table_56</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="608540DF-CC61-E15D-958E-66362D6186BD">
+<Column name="ID" id="9998F211-7AD1-F217-DAB3-9D2BDD206051">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:15 UTC</createdTime>
+<createdTime>2023-12-10 15:47:26 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Datum" id="8C11D85C-2FD8-C186-920A-765041B68B1C">
+<Column name="Terapije_TerapijaID" id="9D068C6F-092A-35AB-3724-DCE840511574">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:39 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SmesnkiRaspored_SmenaID" id="7A0313C2-5A58-A7E2-C7C6-01E699B99AC8">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:43 UTC</createdTime>
+<createdTime>2023-12-10 15:47:31 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +29,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="164ADB4D-4721-21B3-40F0-2467EBBE8CDD" referredColumn="69A799A7-57C1-2880-9F09-3AF2EC468835"/>
+<colAssociation fkAssociation="063FCCDE-9935-6143-5F7F-E04D5B12B455" referredColumn="F8ACF84F-1D24-0830-128F-EBB626554EA5"/>
 </associations>
 </Column>
-<Column name="Dodaci_DodatakID" id="AFD35670-4DEF-7D1B-10B9-A6046D9BF92A">
+<Column name="Recept_ReceptID" id="7D9F16AB-3F91-C1CC-51CE-8E15D62C9D6E">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:49 UTC</createdTime>
+<createdTime>2023-12-10 15:47:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,40 +43,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="CDE661E7-63F9-E6FB-58F9-CB4D7558B7C7" referredColumn="F2397E2B-C5B7-BDC4-C83C-25E5890239AC"/>
+<colAssociation fkAssociation="B4683590-18F3-3CD2-A929-19511249B4DC" referredColumn="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="2E4FDC7D-A220-0277-3F1B-CAB3202C6777" name="SmenaDodatak_PK">
+<ind_PK_UK id="B3236CE2-71C7-5E01-F5DD-4C5486D441EE" name="TerapijaRecept_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:15 UTC</createdTime>
+<createdTime>2023-12-10 15:47:26 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="608540DF-CC61-E15D-958E-66362D6186BD"/>
+<colUsage columnID="9998F211-7AD1-F217-DAB3-9D2BDD206051"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4123AB2A-CA85-656F-625D-0CFEFC35920B" name="SmenaDodatak_SmesnkiRaspored_FK">
+<ind_PK_UK id="622EB43E-12AA-DF01-66E2-0C6AE1814285" name="TerapijaRecept_Terapije_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:43 UTC</createdTime>
+<createdTime>2023-12-10 15:47:31 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7A0313C2-5A58-A7E2-C7C6-01E699B99AC8"/>
+<colUsage columnID="9D068C6F-092A-35AB-3724-DCE840511574"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="556383C1-7BB6-7901-72F8-BDD02DA41AE7" name="SmenaDodatak_Dodaci_FK">
+<ind_PK_UK id="362A2698-2EF4-99EC-CF71-F7101FB03CFC" name="TerapijaRecept_Recept_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:56:49 UTC</createdTime>
+<createdTime>2023-12-10 15:47:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AFD35670-4DEF-7D1B-10B9-A6046D9BF92A"/>
+<colUsage columnID="7D9F16AB-3F91-C1CC-51CE-8E15D62C9D6E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

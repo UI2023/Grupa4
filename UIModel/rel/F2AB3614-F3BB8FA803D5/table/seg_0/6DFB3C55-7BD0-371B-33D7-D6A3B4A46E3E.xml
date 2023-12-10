@@ -39,20 +39,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Izvestaji_IzvestajId" id="B8975323-15F9-099C-1FE0-80E253C3F02A">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:49:37 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="203BE3CA-F1A1-2BA6-2EDF-17D189BDF2FD" referredColumn="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="C87CDBED-A203-78E8-2539-3DCCA61719F1" name="Oboljenja_PK">
@@ -64,17 +50,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7347ABE3-6491-F99A-4E05-741CFE899B25"/>
-<colUsage columnID="CFC5412E-F4BF-B8BC-6100-29A031457771"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="07C36B8F-60C9-3356-6F84-3F2992F73FB2" name="Oboljenja_Izvestaji_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:49:37 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="B8975323-15F9-099C-1FE0-80E253C3F02A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

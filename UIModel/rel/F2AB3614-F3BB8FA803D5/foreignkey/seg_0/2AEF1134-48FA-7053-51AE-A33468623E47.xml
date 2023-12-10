@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DBFD4485-C266-3E89-5980-0C9C7FCBB135" containerWithKeyObject="F9C20073-9AD4-DDE3-9176-8470C36CCD91" localFKIndex="B5BB0D38-8684-8C18-19E9-CC9DE0B137A9" name="OboljenjaLekovi_Oboljenja_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2AEF1134-48FA-7053-51AE-A33468623E47" containerWithKeyObject="AEDED836-AD32-5515-1F36-C9108BA3D799" localFKIndex="A4562F58-8553-4C72-108D-4FB3470F8220" name="OboljenjaIzvestaji_Oboljenja_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:45:43 UTC</createdTime>
+<createdTime>2023-12-10 14:57:01 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>Oboljenja</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>
@@ -9,7 +9,7 @@
 <keyObject>C87CDBED-A203-78E8-2539-3DCCA61719F1</keyObject>
 <referredKeyID>C87CDBED-A203-78E8-2539-3DCCA61719F1</referredKeyID>
 <mandatory>true</mandatory>
-<refColNames>OboljenjeID,Naziv</refColNames>
+<refColNames>OboljenjeID</refColNames>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

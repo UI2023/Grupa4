@@ -64,6 +64,17 @@
 <colAssociation fkAssociation="49C98EA2-1582-13D0-C70E-332158A3366E" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
 </associations>
 </Column>
+<Column name="BonusPlata" id="B4E39DCE-D9D2-FC02-4EDF-15D130F1C8ED">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:06:53 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F439FAD9-015F-2F1E-35E1-F749FCC46DED" name="Ugovori_PK">

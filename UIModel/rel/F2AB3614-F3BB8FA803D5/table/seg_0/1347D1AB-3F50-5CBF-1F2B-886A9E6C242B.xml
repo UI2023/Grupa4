@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1347D1AB-3F50-5CBF-1F2B-886A9E6C242B" name="RadniSati">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:34:41 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6E1BAE40-E498-0D1E-8ECA-D467D79F3FCC">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:35:02 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Datum" id="6B3ABD6A-6621-D2DF-E654-9CCF25ACA00F">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:36:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Odobreno" id="C904FD9A-7BD8-8617-2A3C-E5B425D9E2F8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:36:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PocetakRada" id="710ABA0F-1F61-82FA-94ED-A11EC3E35B52">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:36:43 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KrajRada" id="02D3F975-9916-F95C-9188-462EA6B567D8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:37:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="FB72ABE2-4910-6176-4FE1-28D296C5C2B2">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:37:25 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="150C5753-6184-4E8A-026E-7744BBC9B10D" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+<Column name="SmesnkiRaspored_SmenaID" id="08840EF5-2EC1-91A4-7E24-0A5F37B0D269">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:37:36 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E81B55AD-930F-87E1-04F5-618B2A2FF5FD" referredColumn="69A799A7-57C1-2880-9F09-3AF2EC468835"/>
+</associations>
+</Column>
+<Column name="TIpSata_ID" id="61A09EDF-8DA2-246F-12B3-B613B059648E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:39:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9CC0A9C8-F1BE-9CBB-00D2-C6F11089E52C" referredColumn="52F30E19-DEB9-8FBB-61EC-3928E443A914"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="41B1E146-7ABC-A776-46E4-887DA219AB0F" name="RadniSati_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:35:02 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E1BAE40-E498-0D1E-8ECA-D467D79F3FCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7123750A-E289-8C09-8773-DD82CCD529D1" name="RadniSati_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:37:25 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB72ABE2-4910-6176-4FE1-28D296C5C2B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E872FFE-5B12-A7E3-BE5E-8A9292A5AB6A" name="RadniSati_SmesnkiRaspored_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:37:36 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08840EF5-2EC1-91A4-7E24-0A5F37B0D269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7FCEEBC-3777-B9C8-2C5E-6750DCC1BC74" name="RadniSati_TIpSata_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-10 16:39:07 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61A09EDF-8DA2-246F-12B3-B613B059648E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
