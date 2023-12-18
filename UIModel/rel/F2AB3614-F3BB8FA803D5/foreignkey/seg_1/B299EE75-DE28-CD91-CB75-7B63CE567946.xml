@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="B299EE75-DE28-CD91-CB75-7B63CE567946" containerWithKeyObject="A215AF1C-74A0-660E-888A-1196F08AF9C0" localFKIndex="9380B49C-7C98-8925-75E1-F7A6FCCC8CEF" name="LekoviRecept_Recept_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 16:38:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Recept</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2021BD35-DAC2-3C55-E492-4C2A0AB0042C</referredTableID>
+<keyObject>1C0EF394-6D1E-764F-5868-5BE170CD60C7</keyObject>
+<referredKeyID>1C0EF394-6D1E-764F-5868-5BE170CD60C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ReceptID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

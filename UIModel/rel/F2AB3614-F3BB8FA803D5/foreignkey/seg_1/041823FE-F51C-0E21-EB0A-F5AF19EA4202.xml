@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49C98EA2-1582-13D0-C70E-332158A3366E" containerWithKeyObject="15513A94-D777-3055-6BFC-7F7B8745DC05" localFKIndex="0E0BAE0F-FD8B-FBE0-A311-FD9A8A7B6276" name="Ugovori_Zaposleni_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="041823FE-F51C-0E21-EB0A-F5AF19EA4202" containerWithKeyObject="0159FB66-2FE2-F25B-A50C-25749163AB48" localFKIndex="7C606A1C-C518-3A48-9F32-1F073EA157E3" name="PoslednjiUgovor_Zaposleni_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:42:00 UTC</createdTime>
+<createdTime>2023-12-17 23:04:25 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>Zaposleni</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

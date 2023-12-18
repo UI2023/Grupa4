@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15513A94-D777-3055-6BFC-7F7B8745DC05" name="Ugovori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="398E25CC-3A50-504F-58C3-42428B2885CD" name="Vakcinacija">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:40:52 UTC</createdTime>
+<createdTime>2023-12-17 23:54:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_48</ordsAlias>
+<ordsAlias>table_70</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="UgovorID" id="718F105E-BAFA-B0FA-C948-92DEDF4D3F5F">
+<Column name="ID" id="1F58F0D1-211E-9A31-A301-1853B1602C74">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:07 UTC</createdTime>
+<createdTime>2023-12-17 23:56:48 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,19 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OsnovnaPlata" id="FD4C994A-8391-A668-2F18-81F56A1B0B04">
+<Column name="Vakcina" id="8AACC2DD-01FA-91D0-26A6-71B1E6630E8B">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
+<createdTime>2023-12-17 23:56:48 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumPocetka" id="7C68883F-7706-698D-3105-A0E1E6797E87">
+<Column name="DatumVakcinacije" id="29EF745B-8AB5-D7BD-47C2-8457568EE42C">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
+<createdTime>2023-12-17 23:56:48 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -39,39 +40,41 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumZavrsetka" id="10B6A5B3-20B4-A2DF-D53F-2C8C10D600C4">
+<Column name="ElektronskiZdrKartoni_ID" id="9A631F58-8965-7AEC-FE26-B0425E25D52A">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
+<createdTime>2023-12-17 23:57:19 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="BonusPlata" id="B4E39DCE-D9D2-FC02-4EDF-15D130F1C8ED">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 16:06:53 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AEABDD6-197A-5CC3-182B-391554859FB2" referredColumn="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F439FAD9-015F-2F1E-35E1-F749FCC46DED" name="Ugovori_PK">
+<ind_PK_UK id="4877D1B5-880C-C791-8685-3206AEA0511A" name="Vakcinacija_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:07 UTC</createdTime>
+<createdTime>2023-12-17 23:56:48 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="718F105E-BAFA-B0FA-C948-92DEDF4D3F5F"/>
+<colUsage columnID="1F58F0D1-211E-9A31-A301-1853B1602C74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="600C2ADE-A66A-EB41-E5B4-AD86B8E0ABC5" name="Vakcinacija_ElektronskiZdrKartoni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:57:19 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A631F58-8965-7AEC-FE26-B0425E25D52A"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

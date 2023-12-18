@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64579FF4-30E7-4DF3-EC2D-5C1EC302F075" name="ReceptLekovi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD3F96E1-FC69-D85F-7909-0925E620A4C4" name="MedicinskiPodaci">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:58:28 UTC</createdTime>
+<createdTime>2023-12-17 23:32:16 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_54</ordsAlias>
+<ordsAlias>table_66</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="1B9C260D-9951-F808-68FD-071C0D67A28B">
+<Column name="ID" id="5457DDC7-49FA-D715-77B9-FF74C9D2A8A8">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:58:43 UTC</createdTime>
+<createdTime>2023-12-17 23:32:31 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,35 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Recept_ReceptID" id="AC53993C-8875-7BBD-18A0-DF531E0EB101">
+<Column name="Datum" id="6F3A5ACC-9141-23F9-23CD-90D6FA28601C">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:58:47 UTC</createdTime>
+<createdTime>2023-12-17 23:32:53 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="D2337D57-7AB5-2A39-11DE-8FB655CE2212" referredColumn="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
-</associations>
 </Column>
-<Column name="NacinUpotrebe" id="5F8B1E0B-B8A0-C127-5678-6684243A409F">
+<Column name="Opis" id="50D1C2DB-B048-8DD0-0E42-9A77B7ACFFB4">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-05 00:01:54 UTC</createdTime>
+<createdTime>2023-12-17 23:32:53 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Lekovi_LekID" id="844A126B-9359-35FE-4F2B-6A2700D559CC">
+<Column name="TipPodatka_ID" id="289ABCD6-61E0-2064-48F3-A352526245CB">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 22:18:35 UTC</createdTime>
+<createdTime>2023-12-17 23:33:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -55,40 +51,54 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="79CB7DF6-4B8C-6FFC-D0B7-1D4430B63582" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+<colAssociation fkAssociation="BA8F4BD7-06F6-8CC4-1DBA-2AF996A6D6FC" referredColumn="0968B0EE-A77F-F7CC-07FA-52DCE6B2C2DE"/>
+</associations>
+</Column>
+<Column name="ElektronskiZdrKartoni_ID" id="52BC2FD3-F48A-DB5C-0176-7C610615DB76">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:34:00 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F2C32DF-A8EF-0F0C-7DC4-B0CA155D6B0D" referredColumn="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FD709523-0D91-D7AB-736B-63886364D3BE" name="ReceptLekovi_PK">
+<ind_PK_UK id="9BF86BB5-6C16-46E0-FD48-E94F3A8F99FF" name="MedicinskiPodaci_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:58:43 UTC</createdTime>
+<createdTime>2023-12-17 23:32:31 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1B9C260D-9951-F808-68FD-071C0D67A28B"/>
+<colUsage columnID="5457DDC7-49FA-D715-77B9-FF74C9D2A8A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4C5FC0D7-C771-0EBE-3BE8-415E8EBE254D" name="ReceptLekovi_Recept_FK">
+<ind_PK_UK id="6EB9719F-615A-2CBB-2074-DC1CE1C8B90C" name="MedicinskiPodaci_TipPodatka_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:58:47 UTC</createdTime>
+<createdTime>2023-12-17 23:33:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="AC53993C-8875-7BBD-18A0-DF531E0EB101"/>
+<colUsage columnID="289ABCD6-61E0-2064-48F3-A352526245CB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D1FEA2FC-5276-2055-B255-B4573727A923" name="ReceptLekovi_Lekovi_FK">
+<ind_PK_UK id="5D4C34B1-F8DE-DC03-5138-D6312E5B156A" name="MedicinskiPodaci_ElektronskiZdrKartoni_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 22:18:34 UTC</createdTime>
+<createdTime>2023-12-17 23:34:00 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="844A126B-9359-35FE-4F2B-6A2700D559CC"/>
+<colUsage columnID="52BC2FD3-F48A-DB5C-0176-7C610615DB76"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -52,6 +52,20 @@
 <colAssociation fkAssociation="D00FE1B2-6BB5-87DF-0799-844CE7A2ADD3" referredColumn="5A807034-716B-9542-A851-FF5ECF9BFE98"/>
 </associations>
 </Column>
+<Column name="Klijent_ID" id="97325FC4-3C1D-4E9B-62D2-FC6CD9CAE98C">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 22:33:05 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC19CF8C-1487-0A66-785E-93AA4DA04C1E" referredColumn="DD546543-287E-C67B-E94E-286841AF6105"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="14F55EF8-0EBF-AE3F-2F40-33F2F98A772B" name="Transakcije_PK">
@@ -73,6 +87,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="A74C606C-C07A-79A9-7A65-2D18B07C7E17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E0AA43B-7137-E9F2-EF91-4412C3FA66C9" name="Transakcije_Klijent_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 22:33:05 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="97325FC4-3C1D-4E9B-62D2-FC6CD9CAE98C"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

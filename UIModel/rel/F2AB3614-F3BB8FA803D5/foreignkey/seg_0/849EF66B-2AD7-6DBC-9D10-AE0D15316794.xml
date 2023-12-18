@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="849EF66B-2AD7-6DBC-9D10-AE0D15316794" containerWithKeyObject="60D15CD0-BD72-08EF-2849-102EE33D8F37" localFKIndex="57C171FE-FDBD-27B1-4E59-E0501B3E7BDF" name="ElektronskiZdrKartoni_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:31:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Pacijenti</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D3218605-0CB7-ADD7-1F76-FFD81DCA588D</referredTableID>
+<keyObject>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</keyObject>
+<referredKeyID>D9C6B10F-5C95-007F-EB95-A0B527FD2B1F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PacijentID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="15513A94-D777-3055-6BFC-7F7B8745DC05" name="Ugovori">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59D2B54E-9F36-F7BD-64F4-0C3DBBF59F4A" name="Klijent">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:40:52 UTC</createdTime>
+<createdTime>2023-12-17 22:31:02 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_48</ordsAlias>
+<ordsAlias>table_60</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="UgovorID" id="718F105E-BAFA-B0FA-C948-92DEDF4D3F5F">
+<Column name="ID" id="DD546543-287E-C67B-E94E-286841AF6105">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:07 UTC</createdTime>
+<createdTime>2023-12-17 22:31:30 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,60 +18,64 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="OsnovnaPlata" id="FD4C994A-8391-A668-2F18-81F56A1B0B04">
+<Column name="Ime " id="6FC322AA-82ED-6FA9-0B5A-24BF7323E6E1">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DatumPocetka" id="7C68883F-7706-698D-3105-A0E1E6797E87">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
+<createdTime>2023-12-17 22:32:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumZavrsetka" id="10B6A5B3-20B4-A2DF-D53F-2C8C10D600C4">
+<Column name="Prezime" id="974CDFC5-0323-C74B-D199-8C6B8A1C617B">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:52 UTC</createdTime>
+<createdTime>2023-12-17 22:32:46 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="BonusPlata" id="B4E39DCE-D9D2-FC02-4EDF-15D130F1C8ED">
+<Column name="Pacijenti_PacijentID" id="6A954FC0-6AE6-29F8-29D4-DC64706C9324">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 16:06:53 UTC</createdTime>
+<createdTime>2023-12-17 22:35:16 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FD0F2830-87C0-2A2C-C1CF-46867A7CADDA" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F439FAD9-015F-2F1E-35E1-F749FCC46DED" name="Ugovori_PK">
+<ind_PK_UK id="761E4B09-6886-F29B-BD1E-B8AE3ED309AF" name="Klijent_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 21:41:07 UTC</createdTime>
+<createdTime>2023-12-17 22:31:30 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="718F105E-BAFA-B0FA-C948-92DEDF4D3F5F"/>
+<colUsage columnID="DD546543-287E-C67B-E94E-286841AF6105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBB70A9F-9F07-D3F1-688A-7219A239D271" name="Klijent_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 22:35:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A954FC0-6AE6-29F8-29D4-DC64706C9324"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

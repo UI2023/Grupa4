@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C72EEAD2-B409-6514-8800-7395E4125884" name="IzdatiLekovi">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFF7F9C5-12D4-4A6D-8A1D-148FEA02F729" name="OstalaOprema">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:16:49 UTC</createdTime>
+<createdTime>2023-12-17 23:13:30 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_41</ordsAlias>
+<ordsAlias>table_64</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="IzdatLekID" id="CD41DCF7-A595-ACC0-F686-5608DFE83311">
+<Column name="ID" id="589A20EA-7A7B-E566-E521-79DC81104DAC">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:17:59 UTC</createdTime>
+<createdTime>2023-12-17 23:13:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,39 +18,52 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kolicina" id="4C3C9735-F32B-8D2C-105F-A9DD854D19E3">
+<Column name="Naziv" id="6A4694FE-35F2-C824-562B-C53C33515CD5">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:18:53 UTC</createdTime>
+<createdTime>2023-12-17 23:14:03 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Artikli_ID" id="1C97B803-E174-791C-798E-B61B9434736D">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:14:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DatumIzdavanja" id="E135F498-D675-7946-6803-231F8E5D52F3">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:19:11 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31DB53EA-314E-A20B-52D1-CA1522844998" referredColumn="2FA0AA7A-1598-4D2E-B0BA-B0FD24297351"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FBE259F9-C02A-85D9-FDDE-C93DA3C8DCFB" name="IzdatiLekovi_PK">
+<ind_PK_UK id="E1270B46-16AA-1480-E38E-2C20AB652962" name="OstalaOprema_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-11-13 20:17:59 UTC</createdTime>
+<createdTime>2023-12-17 23:13:44 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CD41DCF7-A595-ACC0-F686-5608DFE83311"/>
+<colUsage columnID="589A20EA-7A7B-E566-E521-79DC81104DAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CD2DDC48-C908-8F82-2B19-85AF363DCF93" name="OstalaOprema_Artikli_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:14:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C97B803-E174-791C-798E-B61B9434736D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2059A325-C989-0DAA-DA07-46ADE63DAADD" name="ZaliheLekova">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0CA2881-9838-4EB5-BB3C-D3003C357E47" name="IstorijaBolesti">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:21:54 UTC</createdTime>
+<createdTime>2023-12-17 23:34:27 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_60</ordsAlias>
+<ordsAlias>table_68</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="88C58E26-C1D1-E54E-9148-82716004FAA0">
+<Column name="ID" id="39F2061F-F4BD-68D5-4815-5C97AEFD92E5">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:09 UTC</createdTime>
+<createdTime>2023-12-17 23:34:43 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,31 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Kolicina" id="2524D75D-E528-4509-2663-A93E33083E73">
+<Column name="Dijagnoza" id="2F523D2F-6CFC-CDD7-5B6B-3D204EF91288">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:36 UTC</createdTime>
+<createdTime>2023-12-17 23:39:36 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Lekovi_LekID" id="0FEA810B-731D-6375-C22E-30445B4B8766">
+<Column name="DatumDijagnoze" id="5FDAE3CF-8849-7A82-9F21-25706AC84039">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:48 UTC</createdTime>
+<createdTime>2023-12-17 23:39:36 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Izvestaji_IzvestajId" id="AB2C3CAB-42B9-F9EF-93B5-1208BCEC0A50">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-17 23:53:58 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +51,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7C8A99D5-25F4-6140-9746-6DA5AE64E773" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+<colAssociation fkAssociation="E2CD45B1-4714-A5D1-B4E8-194D21D5DCF6" referredColumn="8A5B3782-130A-4BF1-5988-F5F74F496858"/>
 </associations>
 </Column>
-<Column name="Apoteka_ApotekaID" id="2461E69B-BE28-F4BD-3E02-0A078DFFE63D">
+<Column name="ElektronskiZdrKartoni_ID" id="45BD4964-BDA3-2B0C-B20F-33BA4BCFFD22">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:54 UTC</createdTime>
+<createdTime>2023-12-17 23:54:04 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,51 +65,40 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="D2C486D7-FEC4-ED3D-E9D2-9CC7F558EB29" referredColumn="5A807034-716B-9542-A851-FF5ECF9BFE98"/>
+<colAssociation fkAssociation="2CB45753-6198-F4EF-BD38-59DB989FD189" referredColumn="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
 </associations>
-</Column>
-<Column name="Datum" id="DD39BEF2-1BCD-8BEA-830D-9737DFFAD689">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 22:20:16 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="DCC84053-3EE2-5D92-F298-2E36FC428A75" name="ZaliheLekova_PK">
+<ind_PK_UK id="F6A190F7-A5A0-1D81-1F7F-BC279950CD8A" name="IstorijBolesti_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:09 UTC</createdTime>
+<createdTime>2023-12-17 23:34:43 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="88C58E26-C1D1-E54E-9148-82716004FAA0"/>
+<colUsage columnID="39F2061F-F4BD-68D5-4815-5C97AEFD92E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B1BBA92D-0F41-62BA-526F-241C2FBDEBBA" name="ZaliheLekova_Lekovi_FK">
+<ind_PK_UK id="9D5265C3-C166-FBC0-A409-1140EA9431EC" name="IstorijaBolesti_Izvestaji_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:48 UTC</createdTime>
+<createdTime>2023-12-17 23:53:58 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0FEA810B-731D-6375-C22E-30445B4B8766"/>
+<colUsage columnID="AB2C3CAB-42B9-F9EF-93B5-1208BCEC0A50"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CD53C862-7AA8-A5C2-7B71-5738F75F4B49" name="ZaliheLekova_Apoteka_FK">
+<ind_PK_UK id="93824C96-E77C-F327-81B9-0A29D1676E26" name="IstorijaBolesti_ElektronskiZdrKartoni_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-10 17:22:54 UTC</createdTime>
+<createdTime>2023-12-17 23:54:04 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2461E69B-BE28-F4BD-3E02-0A078DFFE63D"/>
+<colUsage columnID="45BD4964-BDA3-2B0C-B20F-33BA4BCFFD22"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2021BD35-DAC2-3C55-E492-4C2A0AB0042C" name="Recept">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="60D15CD0-BD72-08EF-2849-102EE33D8F37" name="ElektronskiZdrKartoni">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:56:53 UTC</createdTime>
+<createdTime>2023-12-17 23:30:13 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_53</ordsAlias>
+<ordsAlias>table_65</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ReceptID" id="69F25383-2A0D-1A29-7C7F-62EB6555273A">
+<Column name="ID" id="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:57:34 UTC</createdTime>
+<createdTime>2023-12-17 23:30:34 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DatumIzdavanja" id="2C222174-D8D4-AEBB-A0B5-17050AFDE771">
+<Column name="DatumKreiranja" id="D118BF00-F1A1-05DE-9BCC-6B7F29B32826">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:57:56 UTC</createdTime>
+<createdTime>2023-12-17 23:30:54 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ElektronskiZdrKartoni_ID" id="C8997BA1-9187-E677-39BE-593B6412B866">
+<Column name="Pacijenti_PacijentID" id="1666EDD7-D6ED-7ED7-AACB-D557278AA112">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-18 00:07:28 UTC</createdTime>
+<createdTime>2023-12-17 23:31:22 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,30 +40,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7D0D3A50-A396-9A68-8107-31BC06D37552" referredColumn="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
+<colAssociation fkAssociation="849EF66B-2AD7-6DBC-9D10-AE0D15316794" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="1C0EF394-6D1E-764F-5868-5BE170CD60C7" name="Recept_PK">
+<ind_PK_UK id="90326C3B-FE86-00FA-DA2B-C1A13E79C4DA" name="ElektronskiZdrKartoni_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-04 23:57:34 UTC</createdTime>
+<createdTime>2023-12-17 23:30:34 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
+<colUsage columnID="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0EE2963F-A0EA-23E8-434F-9829990168A4" name="Recept_ElektronskiZdrKartoni_FK">
+<ind_PK_UK id="57C171FE-FDBD-27B1-4E59-E0501B3E7BDF" name="ElektronskiZdrKartoni_Pacijenti_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-18 00:07:28 UTC</createdTime>
+<createdTime>2023-12-17 23:31:22 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C8997BA1-9187-E677-39BE-593B6412B866"/>
+<colUsage columnID="1666EDD7-D6ED-7ED7-AACB-D557278AA112"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
