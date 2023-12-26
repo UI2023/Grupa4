@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE9DD1EE-736D-18CF-EC24-66D3DFA77DD7" name="TipPodatka">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2974633-3E8D-DF05-73CE-B077F341D659" name="Aktivnosti">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:32:56 UTC</createdTime>
+<createdTime>2023-12-26 00:21:10 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_67</ordsAlias>
+<ordsAlias>table_76</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="0968B0EE-A77F-F7CC-07FA-52DCE6B2C2DE">
+<Column name="ID" id="C2E95CFF-847D-D201-497C-8E3E3BBC1660">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:33:18 UTC</createdTime>
+<createdTime>2023-12-26 00:21:47 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NazivTipa" id="F6664A9E-5A53-6B22-6ADF-DBC48D1DB87D">
+<Column name="NazivAktivnosti" id="DFAC9455-3A73-397A-52D1-D129FA16079B">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:33:27 UTC</createdTime>
+<createdTime>2023-12-26 00:21:47 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="F261659E-EBDF-16F2-7DD3-3ADEC04EAFEA">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:21:47 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,15 +42,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="581B3A1E-59E9-1565-459B-E6BECE30FF61" name="TipPodatka_PK">
+<ind_PK_UK id="6242E9FB-7F7C-D71E-C4AD-4EDE28CB1CC5" name="Aktivnosti_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:33:18 UTC</createdTime>
+<createdTime>2023-12-26 00:21:47 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0968B0EE-A77F-F7CC-07FA-52DCE6B2C2DE"/>
+<colUsage columnID="C2E95CFF-847D-D201-497C-8E3E3BBC1660"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

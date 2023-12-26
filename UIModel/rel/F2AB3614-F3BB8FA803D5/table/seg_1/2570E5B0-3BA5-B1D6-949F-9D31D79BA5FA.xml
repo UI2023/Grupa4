@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="2570E5B0-3BA5-B1D6-949F-9D31D79BA5FA" name="CenovnikArtikli">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:07:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0790BA9A-1CC0-1AF9-D3A4-0B07B3D93853">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cena" id="53D6E2D5-2B1A-9F17-6962-E6A54DD8DFCC">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popust" id="AAF36C34-C6B7-018B-3C3E-C834EC763018">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cenovnik_ID" id="7B2AF98E-F966-9558-C727-9DECAE3082D6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:40 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FC406F5-7A40-B241-A5E1-52026C70B456" referredColumn="CD44AB94-E2AA-3D88-0162-3B03322C0802"/>
+</associations>
+</Column>
+<Column name="Artikli_ID" id="F90F8BA0-AA81-14D9-95C5-A96C851B4047">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7B9061A2-B39A-2C9F-9BE4-E8CEB1BB7723" referredColumn="2FA0AA7A-1598-4D2E-B0BA-B0FD24297351"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6ED87604-046F-969F-6E67-49A55CB72AB1" name="CenovnikArtikli_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0790BA9A-1CC0-1AF9-D3A4-0B07B3D93853"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7397E52B-64EA-41DA-469C-6EFE1DDFB482" name="CenovnikArtikli_Cenovnik_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:40 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B2AF98E-F966-9558-C727-9DECAE3082D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5231E845-220A-AF4F-A183-03D2264B063D" name="CenovnikArtikli_Artikli_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:08:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F90F8BA0-AA81-14D9-95C5-A96C851B4047"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

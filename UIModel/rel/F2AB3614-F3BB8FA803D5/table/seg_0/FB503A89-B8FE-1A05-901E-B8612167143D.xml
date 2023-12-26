@@ -51,6 +51,59 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="Lekovi_LekID" id="1F4D648F-3196-E36B-DE47-FDA70E4DD9F4">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:04:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9E80B3E9-52D1-2D32-FFBF-A17638603256" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+</associations>
+</Column>
+<Column name="OstalaOprema_ID" id="5B5FD537-C440-79BB-606C-C5434B97C968">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:04:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14FC10B1-A1DE-BD99-6BC5-1AF993E895B1" referredColumn="589A20EA-7A7B-E566-E521-79DC81104DAC"/>
+</associations>
+</Column>
+<Column name="Kolicina" id="56B87963-DAEB-48F9-1C96-549EB50AF464">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:04:57 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipArtikla_ID" id="76C0A122-8FC3-5F72-74AE-B4135F07CFFE">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:09:37 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E3CDEAF7-39DC-DB78-D928-6E87E5196F15" referredColumn="CF9050F5-FEA0-312E-6D53-4E0DDD5C1DA5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="CD693D8D-9303-6724-15A9-BE85F8BC8514" name="Artikli_PK">
@@ -62,6 +115,36 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="2FA0AA7A-1598-4D2E-B0BA-B0FD24297351"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB1026EC-F8C4-939A-1C28-ECD81375C073" name="Artikli_Lekovi_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:04:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F4D648F-3196-E36B-DE47-FDA70E4DD9F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16D1240D-09A4-B41F-6941-0FDC066D4914" name="Artikli_OstalaOprema_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:04:20 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5FD537-C440-79BB-606C-C5434B97C968"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C016601-E683-F415-DD70-A505596854F3" name="Artikli_TipArtikla_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:09:37 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76C0A122-8FC3-5F72-74AE-B4135F07CFFE"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

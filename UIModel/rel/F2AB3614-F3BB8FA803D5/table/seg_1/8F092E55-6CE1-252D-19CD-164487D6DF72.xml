@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="8F092E55-6CE1-252D-19CD-164487D6DF72" name="NarudzbineLekovi">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:10:49 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_74</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4B8D9BFB-07D1-5748-5676-F572E73F5648">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kolicina" id="DAF11A18-900A-9DF2-AEE4-7CD141254753">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lekovi_LekID" id="34559369-01FF-8D97-6635-CF3C481DF756">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86D00AF2-71D2-65D6-9192-E703A0DB7286" referredColumn="98068861-538D-CED8-9984-AD854E6C97B8"/>
+</associations>
+</Column>
+<Column name="Narudzbine_ID" id="228956F6-8C80-7A77-F321-88B4AE74B751">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:31 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D59E2FA1-F3AC-8933-AAE5-95B901397D22" referredColumn="7A6E76DC-959C-8CE0-BA54-67929B793F07"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B339975B-E055-2206-7E4E-CB95643D5EC9" name="NarudzbineLekovi_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B8D9BFB-07D1-5748-5676-F572E73F5648"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CD14DF0-0483-DFD8-E977-232BDBEF3F46" name="NarudzbineLekovi_Lekovi_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:28 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34559369-01FF-8D97-6635-CF3C481DF756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C430738-A974-07D0-DDC1-0DED82464484" name="NarudzbineLekovi_Narudzbine_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:11:31 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="228956F6-8C80-7A77-F321-88B4AE74B751"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

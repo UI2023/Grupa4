@@ -44,6 +44,17 @@
 <colAssociation fkAssociation="18BC0FFF-D977-48B2-3B88-9009BCC6C2A0" referredColumn="7356329E-03B8-5F6F-8596-FC9229CF5A6F"/>
 </associations>
 </Column>
+<Column name="ZadnjiServis" id="C09796DF-728D-F8E5-C515-5D48BF9E69C4">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:56:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E90B932A-4627-AE5A-C725-592C62CA2DA8" name="MedicinskiUredjaji_PK">

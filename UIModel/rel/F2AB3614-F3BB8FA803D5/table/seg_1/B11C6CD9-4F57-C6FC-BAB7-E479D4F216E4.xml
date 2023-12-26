@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0159FB66-2FE2-F25B-A50C-25749163AB48" name="UgovorZaposlenog">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="B11C6CD9-4F57-C6FC-BAB7-E479D4F216E4" name="LaboratorijskiTest">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:03:45 UTC</createdTime>
+<createdTime>2023-12-26 00:35:21 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_63</ordsAlias>
+<ordsAlias>table_78</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="FD5D2331-9D90-A2A8-680F-E62423440052">
+<Column name="ID" id="BCBB5361-8A9F-9F5D-7A67-70506F995ADF">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:14 UTC</createdTime>
+<createdTime>2023-12-26 00:35:35 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,20 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Opis" id="F81F1BBD-978D-6D19-A8A6-CCDD40E930C5">
+<Column name="RezultatiTestova_ID" id="E737B7FF-5D97-27CC-B70B-DBAA8F699105">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:14 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Zaposleni_ZaposleniID" id="52A91573-5BE4-9332-F1E7-FF96F7F5D0F9">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:25 UTC</createdTime>
+<createdTime>2023-12-26 00:36:42 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,12 +29,49 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="041823FE-F51C-0E21-EB0A-F5AF19EA4202" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+<colAssociation fkAssociation="DDE3C0DB-4F9C-5B68-5B54-CE737B4AB60C" referredColumn="BC930404-4087-E4FD-96C1-A4D0158AEC9E"/>
 </associations>
 </Column>
-<Column name="Ugovori_UgovorID" id="27305E3C-6C9D-14E1-EC4B-75A98E3C39D0">
+<Column name="DatumTesta" id="5957E2BC-EB7F-8CEA-9BA3-AF4A6AEBFBD1">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:29 UTC</createdTime>
+<createdTime>2023-12-26 00:37:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TipTesta" id="B1489888-CC0E-89D8-4317-A70110417EB6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:37:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Uput_UputID" id="43FAC7A9-0E97-B5A8-8DE9-37D282A872AD">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:38:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EB866C4-F175-3D8C-9E25-D1FEB8399C5C" referredColumn="0FE8CB2F-3079-DAA6-295B-547F95E6D771"/>
+</associations>
+</Column>
+<Column name="TipTesta_ID" id="D418632D-656E-DE4C-4C05-A66D213BFF71">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:39:14 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -54,73 +80,50 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="378C8E0F-F71D-A63B-A846-CEDAFB0F5BCB" referredColumn="718F105E-BAFA-B0FA-C948-92DEDF4D3F5F"/>
+<colAssociation fkAssociation="9E62D62B-7194-20A8-A4A3-B393CEEEE477" referredColumn="68EBEA0A-0C7C-637F-99B0-D9BC4CF7A185"/>
 </associations>
-</Column>
-<Column name="DatumPocetka" id="74F0C1FE-7150-1099-F010-E71C82A291AB">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-26 00:03:44 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="DatumIsteka" id="A6999B94-745E-BA16-F1F4-9E8F64A4D596">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-26 00:03:44 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="Status" id="D8A97D47-3BAA-AD07-0B99-DD226F8DCCFF">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-26 00:03:44 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="13408EED-08BB-B0FF-9CBF-2642488CDC0D" name="PoslednjiUgovor_PK">
+<ind_PK_UK id="3985F8ED-5D08-3310-8843-DFE43EADB606" name="LaboratorijskiTest_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:14 UTC</createdTime>
+<createdTime>2023-12-26 00:35:35 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="FD5D2331-9D90-A2A8-680F-E62423440052"/>
+<colUsage columnID="BCBB5361-8A9F-9F5D-7A67-70506F995ADF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7C606A1C-C518-3A48-9F32-1F073EA157E3" name="PoslednjiUgovor_Zaposleni_FK">
+<ind_PK_UK id="960A660A-2CCF-48F7-606F-E34EE6EED100" name="LaboratorijskiTest_RezultatiTestova_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:25 UTC</createdTime>
+<createdTime>2023-12-26 00:36:42 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="52A91573-5BE4-9332-F1E7-FF96F7F5D0F9"/>
+<colUsage columnID="E737B7FF-5D97-27CC-B70B-DBAA8F699105"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="285C4BF3-6324-3F42-D804-8DF1F6782D5A" name="PoslednjiUgovor_Ugovori_FK">
+<ind_PK_UK id="491C838A-BAE8-FD1B-8610-58E701CEA1DD" name="LaboratorijskiTest_Uput_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:04:29 UTC</createdTime>
+<createdTime>2023-12-26 00:38:08 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="27305E3C-6C9D-14E1-EC4B-75A98E3C39D0"/>
+<colUsage columnID="43FAC7A9-0E97-B5A8-8DE9-37D282A872AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="275FB775-C9A8-63B8-2DD3-8B3123322412" name="LaboratorijskiTest_TipTesta_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:39:14 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D418632D-656E-DE4C-4C05-A66D213BFF71"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

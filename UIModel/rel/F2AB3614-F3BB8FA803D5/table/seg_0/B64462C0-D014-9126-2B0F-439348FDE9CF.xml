@@ -46,6 +46,31 @@
 <colAssociation fkAssociation="4709A910-6E8F-2C46-DF11-561C9DA019FE" referredColumn="2FA0AA7A-1598-4D2E-B0BA-B0FD24297351"/>
 </associations>
 </Column>
+<Column name="Recept_ReceptID" id="DD1510A2-4C1C-B8D9-C00B-0F1D7632C203">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:12:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F6DA701C-C098-8E44-EFD5-35D6FB06A2C4" referredColumn="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
+</associations>
+</Column>
+<Column name="OdbijanjeZaRecept" id="1B8B7A92-1119-0F8C-C43F-70D2350EA47E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:12:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="AF8102C8-5A30-A593-FDAD-17F5941BA227" name="StavkaRacuna_PK">
@@ -77,6 +102,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="40F170B2-BEB8-8AC2-8C85-C238E3566FC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7921506-F503-E95F-4FB9-4BABED6222E2" name="StavkaRacuna_Recept_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:12:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD1510A2-4C1C-B8D9-C00B-0F1D7632C203"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

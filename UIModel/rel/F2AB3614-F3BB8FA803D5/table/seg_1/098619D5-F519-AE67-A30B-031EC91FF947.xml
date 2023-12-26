@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="098619D5-F519-AE67-A30B-031EC91FF947" name="PacijentVakcina">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:14:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_75</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0D7B9911-E339-AD83-499B-414F8E85CB57">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:14:42 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacijenti_PacijentID" id="A5055933-7B06-CC74-2044-9825BC3F6B36">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:15:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80F5D253-ABE7-2491-88ED-764AB5B126FE" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
+</Column>
+<Column name="Vakcinacija_ID" id="E3755EF6-5968-4843-3FA3-17019EA06B79">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:15:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6EB66F39-7260-C590-1E5E-82247460A709" referredColumn="1F58F0D1-211E-9A31-A301-1853B1602C74"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D0EA9866-4A8C-8C0E-4D46-DCE9B930FAFA" name="PacijentVakcina_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:14:42 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0D7B9911-E339-AD83-499B-414F8E85CB57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3568F1B5-AA99-07A6-AD76-EBB1E5335AB4" name="PacijentVakcina_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:15:08 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5055933-7B06-CC74-2044-9825BC3F6B36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9F37944-FE49-14D6-53CC-0FBD4AC9B04A" name="PacijentVakcina_Vakcinacija_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:15:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3755EF6-5968-4843-3FA3-17019EA06B79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

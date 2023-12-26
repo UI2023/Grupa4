@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFF7F9C5-12D4-4A6D-8A1D-148FEA02F729" name="OstalaOprema">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E4A86ADC-2C54-3073-1081-1244E011E3F0" name="TipArtikla">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:13:30 UTC</createdTime>
+<createdTime>2023-12-26 00:09:02 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
-<ordsAlias>table_64</ordsAlias>
+<ordsAlias>table_72</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="ID" id="589A20EA-7A7B-E566-E521-79DC81104DAC">
+<Column name="ID" id="CF9050F5-FEA0-312E-6D53-4E0DDD5C1DA5">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:13:44 UTC</createdTime>
+<createdTime>2023-12-26 00:09:21 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,9 +18,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Naziv" id="6A4694FE-35F2-C824-562B-C53C33515CD5">
+<Column name="NazivTipa" id="7CA5D84E-6240-6218-85EF-579147A7879E">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:14:03 UTC</createdTime>
+<createdTime>2023-12-26 00:09:21 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,15 +31,15 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E1270B46-16AA-1480-E38E-2C20AB652962" name="OstalaOprema_PK">
+<ind_PK_UK id="839461F3-564A-98B4-960C-FE4D2E076CB9" name="TipArtikla_PK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:13:44 UTC</createdTime>
+<createdTime>2023-12-26 00:09:21 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="589A20EA-7A7B-E566-E521-79DC81104DAC"/>
+<colUsage columnID="CF9050F5-FEA0-312E-6D53-4E0DDD5C1DA5"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

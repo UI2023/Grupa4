@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="849EF66B-2AD7-6DBC-9D10-AE0D15316794" containerWithKeyObject="60D15CD0-BD72-08EF-2849-102EE33D8F37" localFKIndex="57C171FE-FDBD-27B1-4E59-E0501B3E7BDF" name="ElektronskiZdrKartoni_Pacijenti_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="80F5D253-ABE7-2491-88ED-764AB5B126FE" containerWithKeyObject="098619D5-F519-AE67-A30B-031EC91FF947" localFKIndex="3568F1B5-AA99-07A6-AD76-EBB1E5335AB4" name="PacijentVakcina_Pacijenti_FK">
 <createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:31:22 UTC</createdTime>
+<createdTime>2023-12-26 00:15:08 UTC</createdTime>
 <ownerDesignName>UIModel</ownerDesignName>
 <referredTableLongName>Pacijenti</referredTableLongName>
 <deleteRule>NO ACTION</deleteRule>

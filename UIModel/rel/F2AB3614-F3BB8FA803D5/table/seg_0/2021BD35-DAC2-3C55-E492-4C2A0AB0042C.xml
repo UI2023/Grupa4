@@ -39,9 +39,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="7D0D3A50-A396-9A68-8107-31BC06D37552" referredColumn="C0DFBD2C-011A-47E7-FBF7-5BC8EEA1C2A6"/>
-</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -54,16 +51,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="69F25383-2A0D-1A29-7C7F-62EB6555273A"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="0EE2963F-A0EA-23E8-434F-9829990168A4" name="Recept_ElektronskiZdrKartoni_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-18 00:07:28 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="C8997BA1-9187-E677-39BE-593B6412B866"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

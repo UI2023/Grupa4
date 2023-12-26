@@ -89,20 +89,6 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Artikli_ID" id="CD657D64-1F4E-DCCE-FF9E-710F1184502E">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:12:24 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="60A4FFA0-6F18-05B2-AA59-26E8586574BE" referredColumn="2FA0AA7A-1598-4D2E-B0BA-B0FD24297351"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="1B45C927-0D74-7DC2-FAB8-94BE47E7593C" name="Lekovi_PK">
@@ -114,16 +100,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="98068861-538D-CED8-9984-AD854E6C97B8"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="A9F080B3-4FF0-B80A-CBB5-40731FDA9A31" name="Lekovi_Artikli_FK">
-<createdBy>lazarf</createdBy>
-<createdTime>2023-12-17 23:12:24 UTC</createdTime>
-<ownerDesignName>UIModel</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="CD657D64-1F4E-DCCE-FF9E-710F1184502E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

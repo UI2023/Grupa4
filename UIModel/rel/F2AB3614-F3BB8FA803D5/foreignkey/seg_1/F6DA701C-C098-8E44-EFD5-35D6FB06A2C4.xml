@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="F6DA701C-C098-8E44-EFD5-35D6FB06A2C4" containerWithKeyObject="B64462C0-D014-9126-2B0F-439348FDE9CF" localFKIndex="C7921506-F503-E95F-4FB9-4BABED6222E2" name="StavkaRacuna_Recept_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:12:11 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>Recept</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2021BD35-DAC2-3C55-E492-4C2A0AB0042C</referredTableID>
+<keyObject>1C0EF394-6D1E-764F-5868-5BE170CD60C7</keyObject>
+<referredKeyID>1C0EF394-6D1E-764F-5868-5BE170CD60C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ReceptID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

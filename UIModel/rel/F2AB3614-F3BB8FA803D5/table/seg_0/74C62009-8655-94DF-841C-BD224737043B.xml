@@ -29,6 +29,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DatumIzdavanja" id="EDD9B95E-41D3-E7BC-1FC8-B34A5C5AC3FF">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-26 00:40:14 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="PregledKodSpecijaliste_PKSID" id="A9E2B829-ACB5-3E53-8D7A-1FC764E45E18">
 <createdBy>lazarf</createdBy>
 <createdTime>2023-10-27 09:49:12 UTC</createdTime>
