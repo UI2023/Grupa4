@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1C810B2-965E-94FB-5534-893664E11414" name="AmbulantniPozivi">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:51 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_78</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="270C9413-DF58-2C2D-2B24-F49361D744BB">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:34:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumVremePoziva" id="D46E4EE3-E31F-3FA1-0976-581C326EA81E">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:34:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adresa" id="69DBE2B1-8119-0046-B20E-8565D68A0D64">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:34:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OpisHitnosti" id="577E6609-838E-6701-265A-53F8A5DFFD1B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:34:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pacijenti_PacijentID" id="2A57DB1B-BE2F-5A2A-9887-DFD082C41E11">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:35:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F76B3424-04A9-A90B-3F9E-D57DB346D099" referredColumn="B0053434-7FDA-8EFF-8016-E6756BF458B2"/>
+</associations>
+</Column>
+<Column name="Ambulnata_ID" id="6F844FA7-19BF-BA01-0AD3-421590D73DFA">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:35:24 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="689EDEAC-B11C-70AE-58A4-26812FFB4838" referredColumn="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1F84EFE-3C7A-C6ED-EB1B-8CDEB5C9F404" name="AmbulantniPozivi_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:34:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="270C9413-DF58-2C2D-2B24-F49361D744BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7863BCC5-B739-3CA1-96FF-B3AB55C4C54F" name="AmbulantniPozivi_Pacijenti_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:35:13 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A57DB1B-BE2F-5A2A-9887-DFD082C41E11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="504FF5E1-DABD-AFAA-32D6-050F7E60576A" name="AmbulantniPozivi_Ambulnata_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:35:24 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F844FA7-19BF-BA01-0AD3-421590D73DFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

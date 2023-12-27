@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="D9D31FEA-85BA-719C-95AF-9597383773E5" name="ZaposleniAmbulanta">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:43:40 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_81</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C6FC4069-C0C5-CA46-9385-5FBD295172E9">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:44:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pozicija" id="649B0B52-B2EB-5F15-2F44-360786601F70">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:44:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Zaposleni_ZaposleniID" id="8000BD38-4F1F-61DE-0B7D-F073776A2DD3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:44:57 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8C6C42D6-19A3-EEDE-65C4-FA30C8E7C299" referredColumn="74A5E1AD-FF31-66B7-19D2-15F562075BA5"/>
+</associations>
+</Column>
+<Column name="Ambulnata_ID" id="9716476A-06DF-81E1-2431-C053572279F6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:45:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0014C492-3CA7-7937-279B-5B4653D9B812" referredColumn="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E8BF557E-CA32-8D17-39AE-0BD1F9D224BA" name="ZaposleniAmbulanta_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:44:18 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6FC4069-C0C5-CA46-9385-5FBD295172E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="779509DF-0842-7075-F1B1-4DF5CC57259C" name="ZaposleniAmbulanta_Zaposleni_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:44:57 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8000BD38-4F1F-61DE-0B7D-F073776A2DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CEED1A22-5C28-1597-127F-9A81AA93002E" name="ZaposleniAmbulanta_Ambulnata_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:45:10 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9716476A-06DF-81E1-2431-C053572279F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

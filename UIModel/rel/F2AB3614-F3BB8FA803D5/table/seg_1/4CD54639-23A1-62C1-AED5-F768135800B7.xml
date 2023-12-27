@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="4CD54639-23A1-62C1-AED5-F768135800B7" name="RasporedVozila">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:52:59 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_84</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A58A2850-2189-EBD3-78D2-DC849CD672C3">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DatumIVreme" id="928ACFB1-1527-0251-7985-6530F4CF24B6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ambulnata_ID" id="2C54BF55-FBA5-BC00-C071-2BAFCBD429B8">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E5EE12B1-AD7A-A486-5737-EF6C823EEC15" referredColumn="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F"/>
+</associations>
+</Column>
+<Column name="AmbulantnoVozilo_ID" id="EED3E613-D3D3-4381-D447-DFD8791F5AA4">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F0DD3288-19A0-45B3-EF2D-A7DF02190F3E" referredColumn="93A9E96D-E758-B867-243F-AF21FE6213FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B347452A-BCCF-F299-7CD4-3B16207BA927" name="RasporedVozila_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:03 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A58A2850-2189-EBD3-78D2-DC849CD672C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1089CFF4-B1D6-8D9A-63E1-4596DD679021" name="RasporedVozila_Ambulnata_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C54BF55-FBA5-BC00-C071-2BAFCBD429B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EC0D31C8-B9A8-DEC7-5693-EA417340824F" name="RasporedVozila_AmbulantnoVozilo_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:54:16 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EED3E613-D3D3-4381-D447-DFD8791F5AA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

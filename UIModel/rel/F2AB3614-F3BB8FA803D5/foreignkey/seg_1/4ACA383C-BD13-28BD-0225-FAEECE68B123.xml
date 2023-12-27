@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="4ACA383C-BD13-28BD-0225-FAEECE68B123" containerWithKeyObject="E6D0A78D-9F5B-3528-139D-DFD51C3BB015" localFKIndex="FAB186E4-8AA6-3185-7CD2-2620356A50BD" name="OpremaAmbulante_MedicinskaOprema_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:49:21 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<referredTableLongName>MedicinskaOprema</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DABA94F1-ED14-6C21-ADD3-47F83391BBDA</referredTableID>
+<keyObject>2392242F-8815-DECA-0655-1F75BA138110</keyObject>
+<referredKeyID>2392242F-8815-DECA-0655-1F75BA138110</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>OpremaID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

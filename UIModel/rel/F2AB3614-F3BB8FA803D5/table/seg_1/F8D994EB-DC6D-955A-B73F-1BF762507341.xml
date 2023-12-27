@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="F8D994EB-DC6D-955A-B73F-1BF762507341" name="TipVozila">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:55:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_85</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6CA13A63-D141-E34C-4578-3CB914F81CE6">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:56:45 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivTipa" id="A4454756-478D-AD0C-7166-E567DAB3642B">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:56:45 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="987B5CA1-742A-4E51-E901-E465A794617C" name="TipVozila_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:56:45 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CA13A63-D141-E34C-4578-3CB914F81CE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16052E12-FFEF-7F4D-85D1-998079888922" name="Ambulnata">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:31:44 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_77</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:01 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Lokacija" id="5D4FD624-1C9F-252A-3D0F-7350DED7ED26">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:37 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kapacitet" id="E579721C-3E7A-7ADD-CF67-7816409D0E51">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:37 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kontakt" id="FA09201C-617D-6883-960D-3C35646F2CB1">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:37 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29FD4029-878B-9F03-4A4D-45683D50F86B" name="Ambulnata_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:32:01 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

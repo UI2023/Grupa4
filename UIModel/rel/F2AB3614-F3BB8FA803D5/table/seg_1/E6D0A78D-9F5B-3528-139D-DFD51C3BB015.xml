@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="E6D0A78D-9F5B-3528-139D-DFD51C3BB015" name="OpremaAmbulante">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:46:25 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<ordsAlias>table_82</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="4E4D4DF0-E551-C7F2-E80F-863FB0D39604">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:46:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NazivOpreme" id="2CA1D14B-22D0-1B06-FBE8-4134CB654AF9">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:48:12 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MedicinskaOprema_OpremaID" id="C181D7D1-136F-9E56-E636-E10B3B3F6C9A">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:49:22 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4ACA383C-BD13-28BD-0225-FAEECE68B123" referredColumn="191CF6BE-8110-C9F7-1DBC-A13FA0AF48F0"/>
+</associations>
+</Column>
+<Column name="Ambulnata_ID" id="F5AD40FB-1ABE-0252-A5E8-A053C4B098AC">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:49:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97635489-144D-F1A2-10EA-BF5F8CE0AD88" referredColumn="A3A27ED0-F317-5BA2-E4BA-F5A823014D6F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B92750A-7D70-D939-A18E-93C91029B6E4" name="OpremaAmbulante_PK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:46:38 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E4D4DF0-E551-C7F2-E80F-863FB0D39604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FAB186E4-8AA6-3185-7CD2-2620356A50BD" name="OpremaAmbulante_MedicinskaOprema_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:49:21 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C181D7D1-136F-9E56-E636-E10B3B3F6C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCFC51D-D727-9975-D26B-FC186EF1FDFE" name="OpremaAmbulante_Ambulnata_FK">
+<createdBy>lazarf</createdBy>
+<createdTime>2023-12-27 12:49:26 UTC</createdTime>
+<ownerDesignName>UIModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5AD40FB-1ABE-0252-A5E8-A053C4B098AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
